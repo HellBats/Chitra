@@ -1,0 +1,3 @@
+/home/hellbats/Code/Chitra/build/CMakeFiles/buld.dir
+/home/hellbats/Code/Chitra/build/CMakeFiles/edit_cache.dir
+/home/hellbats/Code/Chitra/build/CMakeFiles/rebuild_cache.dir
