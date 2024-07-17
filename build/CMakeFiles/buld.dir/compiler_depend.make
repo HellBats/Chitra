@@ -3,6 +3,11 @@
 
 CMakeFiles/buld.dir/src/example.c.o: /home/hellbats/Code/Chitra/src/example.c \
   /home/hellbats/Code/Chitra/src/include/Chitra.c \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/Circles.c \
+  /home/hellbats/Code/Chitra/src/include/Lines.c \
+  /home/hellbats/Code/Chitra/src/include/Rectangles.c \
+  /home/hellbats/Code/Chitra/src/include/Traingles.c \
   /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/aarch64-linux-gnu/bits/byteswap.h \
   /usr/include/aarch64-linux-gnu/bits/endian.h \
@@ -68,19 +73,23 @@ CMakeFiles/buld.dir/src/example.c.o: /home/hellbats/Code/Chitra/src/example.c \
 
 /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h:
 
-/usr/include/aarch64-linux-gnu/bits/struct_mutex.h:
+/usr/include/stdlib.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h:
+/usr/include/stdio.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h:
+/usr/include/stdc-predef.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/__FILE.h:
+/usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h:
+
+/usr/include/aarch64-linux-gnu/bits/time64.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/features.h:
+
+/usr/include/aarch64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/aarch64-linux-gnu/bits/types.h:
 
@@ -92,37 +101,39 @@ CMakeFiles/buld.dir/src/example.c.o: /home/hellbats/Code/Chitra/src/example.c \
 
 /usr/include/aarch64-linux-gnu/bits/stdio_lim.h:
 
-/usr/include/aarch64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/aarch64-linux-gnu/gnu/stubs.h:
-
-/usr/include/aarch64-linux-gnu/bits/endianness.h:
-
-/usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/aarch64-linux-gnu/bits/endian.h:
-
-/usr/include/aarch64-linux-gnu/bits/byteswap.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/aarch64-linux-gnu/bits/floatn.h:
-
 /usr/include/aarch64-linux-gnu/bits/select.h:
 
 /usr/include/aarch64-linux-gnu/bits/waitstatus.h:
 
-/usr/include/stdlib.h:
+/usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/aarch64-linux-gnu/bits/endianness.h:
+
+/usr/include/aarch64-linux-gnu/gnu/stubs.h:
+
+/home/hellbats/Code/Chitra/src/include/Chitra.h:
+
+/home/hellbats/Code/Chitra/src/include/Rectangles.c:
+
+/usr/include/aarch64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/clock_t.h:
+
+/home/hellbats/Code/Chitra/src/include/Circles.c:
+
+/usr/include/endian.h:
+
+/home/hellbats/Code/Chitra/src/include/Traingles.c:
+
+/usr/include/aarch64-linux-gnu/bits/floatn.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/aarch64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/aarch64-linux-gnu/bits/floatn-common.h:
 
 /usr/include/stdint.h:
 
@@ -132,9 +143,23 @@ CMakeFiles/buld.dir/src/example.c.o: /home/hellbats/Code/Chitra/src/example.c \
 
 /usr/include/alloca.h:
 
-/usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h:
+/usr/include/aarch64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
+/usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
+
+/home/hellbats/Code/Chitra/src/include/Lines.c:
+
+/usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/aarch64-linux-gnu/bits/endian.h:
+
+/usr/include/aarch64-linux-gnu/bits/byteswap.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
 
@@ -158,17 +183,11 @@ CMakeFiles/buld.dir/src/example.c.o: /home/hellbats/Code/Chitra/src/example.c \
 
 /usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
 
-/usr/include/stdio.h:
-
 /usr/include/aarch64-linux-gnu/bits/typesizes.h:
 
 /usr/include/aarch64-linux-gnu/sys/cdefs.h:
 
 /usr/include/aarch64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/aarch64-linux-gnu/bits/time64.h:
-
-/usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h:
 
 /usr/include/aarch64-linux-gnu/bits/wchar.h:
 
@@ -180,8 +199,4 @@ CMakeFiles/buld.dir/src/example.c.o: /home/hellbats/Code/Chitra/src/example.c \
 
 /usr/include/aarch64-linux-gnu/sys/types.h:
 
-/usr/include/endian.h:
-
 /usr/include/features-time64.h:
-
-/usr/include/stdc-predef.h:

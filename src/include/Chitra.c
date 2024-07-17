@@ -3,122 +3,41 @@
 #include<stdint.h>
 #include<stdio.h>
 #include<stdlib.h>
-
+#include"Chitra.h"
+#include"Traingles.c"
+#include"Circles.c"
+#include"Lines.c"
+#include"Rectangles.c"
 #define return_defer(value) do {result=value; goto defer;} while (0)
 
 
-
-
-
-void ChitraFill(uint32_t *pixels,size_t width,size_t height,uint32_t color)
+Chitra NewChitra(uint32_t *pixels, size_t width,size_t height)
 {
-    for(size_t i=0;i<height*width;i++)
+    Chitra Chitra_new = {.pixels = pixels,.width=width,.height=height,.stride=width};
+    return Chitra_new;
+}
+
+void ChitraFill(Chitra chitra,uint32_t color)
+{
+    for(size_t i=0;i<chitra.height*chitra.width;i++)
     {
-        pixels[i] = color;
+        chitra.pixels[i] = color;
     }
 }
 
-void ChitraFillRectangle(uint32_t *pixels,size_t pixels_width,size_t pixels_height,int x0,int y0,
-size_t width,size_t height,uint32_t color)
-{
-    size_t x,y;
-    x = x0<0?0:x0;
-    y = y0<0?0:y0;
-    width = x0+width;
-    height = y0+height;
-    for(;y<height && y<pixels_height;y++)
-    {
-        for(;x<width && x<pixels_width;x++)
-        {  
-            pixels[y*pixels_width+x] = color;
-        }
-        x = x0<0?0:x0;
-    }
-}
-
-void ChitraFillCircle(uint32_t *pixels,size_t pixels_width,size_t pixels_height,int cx,int cy,
-size_t r,uint32_t color)
-{
-    size_t x,y;
-    x = (cx-r)<0?0:(cx-r);
-    y = (cy-r)<0?0:(cy-r);
-    int width = cx+r;
-    int height = cy+r;
-    for(;y<height && y<pixels_height;y++)
-    {
-        for(;x<width && x<pixels_width;x++)
-        {
-            if((cx-x)*(cx-x)+(cy-y)*(cy-y) <= r*r)
-            {
-                pixels[y*pixels_width+x] = color;
-            }
-        }
-        x = (cx-r)<0?0:(cx-r);
-    }
-}
-
-
-void ChitraDrawLine(uint32_t *pixels,size_t pixels_width,size_t pixels_height,int x0,int y0,int x1,int y1,
-uint32_t color)
-{
-    float mx,cx,my,cy;
-    int dx = (((x1-x0)>>31)<<31) | 1;
-    int dy = (((y1-y0)>>31)<<31) | 1;
-    if(x1==x0)
-    {
-        for(;y0!=y1;y0+=dy)
-        {
-            if(y0>0)
-            {
-                pixels[y0*pixels_width+x0] = color;
-            }
-        }
-        return;
-    }
-    if(y1==y0)
-    {
-        for(;x0!=x1;x0+=dx)
-        {
-            if(x0>0)
-            {
-                pixels[y0*pixels_width+x0] = color;
-            }
-        }
-        return;
-    }
-    mx = ((float)(y1-y0))/((float)(x1-x0));
-    my = ((float)(x1-x0))/((float)(y1-y0));
-    cx = y1 - mx*x1;
-    cy = x1 - my*y1;
-    for(;x0!=x1;x0+=dx)
-    {
-        if((mx*x0 + cx)>0 && x0>0)
-        {
-            pixels[((int)(mx*x0 + cx))*pixels_width+x0] = color;
-        }
-    }
-    for(;y0!=y1;y0+=dy)
-    {
-        if((my*y0 + cy)>0 && y0>0)
-        {
-            pixels[y0*pixels_width+((int)(my*y0 + cy))] = color;
-        }
-    }
-}
-
-int ChitraSavePPM(uint32_t *pixels,size_t width,size_t height,const char* path)
+char ChitraSavePPM(Chitra chitra,const char* path)
 {
     int result = 0;
     FILE *ptr = NULL;
     {
         ptr = fopen(path,"wb");
         if (ptr == NULL) return_defer(-1);
-        fprintf(ptr,"P6\n%zu %zu 255 \n",width,height);
+        fprintf(ptr,"P6\n%zu %zu 255 \n",chitra.width,chitra.height);
         if(ferror(ptr)) return_defer(-1);
 
-        for(size_t i=0;i<height*width;i++)
+        for(size_t i=0;i<chitra.height*chitra.width;i++)
         {
-            uint32_t pixel = pixels[i];
+            uint32_t pixel = chitra.pixels[i];
             uint8_t bytes[3] = {(pixel>>8*0)&0xFF,(pixel>>8*1)&0xFF,(pixel>>8*2)&0xFF};
             fwrite(bytes,sizeof(bytes),1,ptr);
             if(ferror(ptr)) return_defer(-1);
@@ -129,4 +48,100 @@ defer:
     return 0;
 }
 
+int Min(int *a,int *b)
+{
+    if(*a<=*b) return *a;
+    else return *b;
+}
+
+
+char NormalizedRectangle(Chitra chitra,int x,int y,int x_, int y_,int *x1,int *y1,int *x2,int *y2)
+{
+    int min_x = Min(&x,&x_);
+    int min_y = Min(&y,&y_);
+    int x_not_min = (min_x == x)?x_:x;
+    int y_not_min = (min_y == y)?y_:y;
+    printf("%d %d %d %d\n",min_x,min_y,x_not_min,y_not_min);
+    if(min_x>(int)chitra.width || min_y>(int)chitra.height || x_not_min<0 || y_not_min<0)
+    {
+        return 0;
+    }
+    if(min_x<0)
+    {
+        min_x = 0;
+    }
+    if(min_y<0)
+    {
+        min_y = 0;
+    }
+    if(x_not_min> (int) chitra.width)
+    {
+        x_not_min = chitra.width;
+    }
+    if(y_not_min> (int) chitra.height)
+    {
+        y_not_min = chitra.height;
+    }
+    *x1 = min_x;
+    *x2 = x_not_min;
+    *y1 = min_y;
+    *y2 = y_not_min;
+    return 1;
+}
+
+Chitra SubChitra(Chitra chitra,int x, int y, int width,int height)
+{
+    int x_,y_;
+    if(NormalizedRectangle(chitra,x,y,x+width,y+height,&x,&y,&x_,&y_))
+    {
+        chitra.pixels = &chitra.pixels[y*chitra.stride+x];
+        chitra.width = x_ - x + 1;
+        chitra.height = y_ -y + 1;
+        return chitra;
+    }
+    else return Chitra_NULL;
+}
+
+void UnpackRGBA(uint32_t c,uint8_t comp[COMP_COUNTS])
+{
+    for(int i=0;i<COMP_COUNTS;i++)
+    {
+        comp[i] = c & 0xFF;
+        c >>= 8;
+    }
+}
+
+uint32_t PackRGBA(uint8_t comp[COMP_COUNTS])
+{
+    uint32_t c = 0;
+    for(int i=0;i<COMP_COUNTS;i++)
+    {
+        c |= comp[i] << 8*(i);
+    }
+    return c;
+}
+
+uint8_t MixComps(uint32_t c1,uint32_t c2,uint32_t t1,uint32_t t2)
+{
+    // c2 over c1
+    uint32_t num = t2*c2+((255-t2)*t1*c1)/255;
+    uint32_t den = t2 + ((255-t2)*t1)/255;
+    // printf("%f %f",num,den);
+    return (uint8_t)(num/den);
+}
+
+uint32_t MixRGBA(uint32_t c1,uint32_t c2)
+{
+    uint8_t comp1[COMP_COUNTS], comp2[COMP_COUNTS];
+    UnpackRGBA(c1,comp1);
+    UnpackRGBA(c2,comp2);
+    for(size_t i=0;i<COMP_COUNTS;i++)
+    {
+        // float t1 = ((float)comp1[COMP_ALPHA])/255.0;
+        // float t2 = ((float)comp2[COMP_ALPHA])/255.0;
+        // printf("%d %d",comp1[COMP_ALPHA],comp2[COMP_ALPHA]);
+        comp1[i] = MixComps(comp1[i],comp2[i],comp1[COMP_ALPHA],comp2[COMP_ALPHA]);
+    }
+    return PackRGBA(comp1);
+}
 #endif

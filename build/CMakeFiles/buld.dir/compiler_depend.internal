@@ -4,6 +4,11 @@
 CMakeFiles/buld.dir/src/example.c.o
  /home/hellbats/Code/Chitra/src/example.c
  /home/hellbats/Code/Chitra/src/include/Chitra.c
+ /home/hellbats/Code/Chitra/src/include/Chitra.h
+ /home/hellbats/Code/Chitra/src/include/Circles.c
+ /home/hellbats/Code/Chitra/src/include/Lines.c
+ /home/hellbats/Code/Chitra/src/include/Rectangles.c
+ /home/hellbats/Code/Chitra/src/include/Traingles.c
  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h
  /usr/include/aarch64-linux-gnu/bits/byteswap.h
  /usr/include/aarch64-linux-gnu/bits/endian.h

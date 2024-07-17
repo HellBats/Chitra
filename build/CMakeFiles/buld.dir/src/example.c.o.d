@@ -52,4 +52,9 @@ CMakeFiles/buld.dir/src/example.c.o: \
  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
- /usr/include/alloca.h /usr/include/aarch64-linux-gnu/bits/stdlib-float.h
+ /usr/include/alloca.h /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+ /home/hellbats/Code/Chitra/src/include/Chitra.h \
+ /home/hellbats/Code/Chitra/src/include/Traingles.c \
+ /home/hellbats/Code/Chitra/src/include/Circles.c \
+ /home/hellbats/Code/Chitra/src/include/Lines.c \
+ /home/hellbats/Code/Chitra/src/include/Rectangles.c
