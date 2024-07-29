@@ -3,11 +3,7 @@
 #include<stdint.h>
 #include<stdio.h>
 #include<stdlib.h>
-#include"Chitra.h"
-#include"Traingles.c"
-#include"Circles.c"
-#include"Lines.c"
-#include"Rectangles.c"
+#include"include/Chitra.h"
 #define return_defer(value) do {result=value; goto defer;} while (0)
 
 
@@ -61,7 +57,7 @@ char NormalizedRectangle(Chitra chitra,int x,int y,int x_, int y_,int *x1,int *y
     int min_y = Min(&y,&y_);
     int x_not_min = (min_x == x)?x_:x;
     int y_not_min = (min_y == y)?y_:y;
-    printf("%d %d %d %d\n",min_x,min_y,x_not_min,y_not_min);
+    // printf("%d %d %d %d\n",min_x,min_y,x_not_min,y_not_min);
     if(min_x>(int)chitra.width || min_y>(int)chitra.height || x_not_min<0 || y_not_min<0)
     {
         return 0;
@@ -135,7 +131,7 @@ uint32_t MixRGBA(uint32_t c1,uint32_t c2)
     uint8_t comp1[COMP_COUNTS], comp2[COMP_COUNTS];
     UnpackRGBA(c1,comp1);
     UnpackRGBA(c2,comp2);
-    for(size_t i=0;i<COMP_COUNTS;i++)
+    for(size_t i=0;i<COMP_COUNTS-1;i++)
     {
         // float t1 = ((float)comp1[COMP_ALPHA])/255.0;
         // float t2 = ((float)comp2[COMP_ALPHA])/255.0;

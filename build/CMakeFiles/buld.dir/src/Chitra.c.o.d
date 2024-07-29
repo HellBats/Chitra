@@ -51,4 +51,26 @@ CMakeFiles/buld.dir/src/Chitra.c.o: \
  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
- /usr/include/alloca.h /usr/include/aarch64-linux-gnu/bits/stdlib-float.h
+ /usr/include/alloca.h /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+ /home/hellbats/Code/Chitra/src/include/Chitra.h \
+ /home/hellbats/Code/Chitra/src/include/3D/Math.h \
+ /home/hellbats/Code/Chitra/src/include/Chitra.h /usr/include/pthread.h \
+ /usr/include/sched.h /usr/include/aarch64-linux-gnu/bits/sched.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+ /usr/include/aarch64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
+ /usr/include/aarch64-linux-gnu/bits/time.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
+ /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
+ /home/hellbats/Code/Chitra/src/include/2D/../Chitra.h \
+ /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
+ /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
+ /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
+ /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
+ /home/hellbats/Code/Chitra/src/include/3D/Math.h

@@ -69,31 +69,175 @@ include CMakeFiles/buld.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/buld.dir/flags.make
 
-CMakeFiles/buld.dir/src/example.c.o: CMakeFiles/buld.dir/flags.make
-CMakeFiles/buld.dir/src/example.c.o: /home/hellbats/Code/Chitra/src/example.c
-CMakeFiles/buld.dir/src/example.c.o: CMakeFiles/buld.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hellbats/Code/Chitra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/buld.dir/src/example.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/buld.dir/src/example.c.o -MF CMakeFiles/buld.dir/src/example.c.o.d -o CMakeFiles/buld.dir/src/example.c.o -c /home/hellbats/Code/Chitra/src/example.c
+CMakeFiles/buld.dir/src/2D/Circles.c.o: CMakeFiles/buld.dir/flags.make
+CMakeFiles/buld.dir/src/2D/Circles.c.o: /home/hellbats/Code/Chitra/src/2D/Circles.c
+CMakeFiles/buld.dir/src/2D/Circles.c.o: CMakeFiles/buld.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hellbats/Code/Chitra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/buld.dir/src/2D/Circles.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/buld.dir/src/2D/Circles.c.o -MF CMakeFiles/buld.dir/src/2D/Circles.c.o.d -o CMakeFiles/buld.dir/src/2D/Circles.c.o -c /home/hellbats/Code/Chitra/src/2D/Circles.c
 
-CMakeFiles/buld.dir/src/example.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/buld.dir/src/example.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hellbats/Code/Chitra/src/example.c > CMakeFiles/buld.dir/src/example.c.i
+CMakeFiles/buld.dir/src/2D/Circles.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/buld.dir/src/2D/Circles.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hellbats/Code/Chitra/src/2D/Circles.c > CMakeFiles/buld.dir/src/2D/Circles.c.i
 
-CMakeFiles/buld.dir/src/example.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/buld.dir/src/example.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hellbats/Code/Chitra/src/example.c -o CMakeFiles/buld.dir/src/example.c.s
+CMakeFiles/buld.dir/src/2D/Circles.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/buld.dir/src/2D/Circles.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hellbats/Code/Chitra/src/2D/Circles.c -o CMakeFiles/buld.dir/src/2D/Circles.c.s
+
+CMakeFiles/buld.dir/src/2D/Lines.c.o: CMakeFiles/buld.dir/flags.make
+CMakeFiles/buld.dir/src/2D/Lines.c.o: /home/hellbats/Code/Chitra/src/2D/Lines.c
+CMakeFiles/buld.dir/src/2D/Lines.c.o: CMakeFiles/buld.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hellbats/Code/Chitra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/buld.dir/src/2D/Lines.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/buld.dir/src/2D/Lines.c.o -MF CMakeFiles/buld.dir/src/2D/Lines.c.o.d -o CMakeFiles/buld.dir/src/2D/Lines.c.o -c /home/hellbats/Code/Chitra/src/2D/Lines.c
+
+CMakeFiles/buld.dir/src/2D/Lines.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/buld.dir/src/2D/Lines.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hellbats/Code/Chitra/src/2D/Lines.c > CMakeFiles/buld.dir/src/2D/Lines.c.i
+
+CMakeFiles/buld.dir/src/2D/Lines.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/buld.dir/src/2D/Lines.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hellbats/Code/Chitra/src/2D/Lines.c -o CMakeFiles/buld.dir/src/2D/Lines.c.s
+
+CMakeFiles/buld.dir/src/2D/Rectangles.c.o: CMakeFiles/buld.dir/flags.make
+CMakeFiles/buld.dir/src/2D/Rectangles.c.o: /home/hellbats/Code/Chitra/src/2D/Rectangles.c
+CMakeFiles/buld.dir/src/2D/Rectangles.c.o: CMakeFiles/buld.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hellbats/Code/Chitra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/buld.dir/src/2D/Rectangles.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/buld.dir/src/2D/Rectangles.c.o -MF CMakeFiles/buld.dir/src/2D/Rectangles.c.o.d -o CMakeFiles/buld.dir/src/2D/Rectangles.c.o -c /home/hellbats/Code/Chitra/src/2D/Rectangles.c
+
+CMakeFiles/buld.dir/src/2D/Rectangles.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/buld.dir/src/2D/Rectangles.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hellbats/Code/Chitra/src/2D/Rectangles.c > CMakeFiles/buld.dir/src/2D/Rectangles.c.i
+
+CMakeFiles/buld.dir/src/2D/Rectangles.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/buld.dir/src/2D/Rectangles.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hellbats/Code/Chitra/src/2D/Rectangles.c -o CMakeFiles/buld.dir/src/2D/Rectangles.c.s
+
+CMakeFiles/buld.dir/src/2D/Traingles.c.o: CMakeFiles/buld.dir/flags.make
+CMakeFiles/buld.dir/src/2D/Traingles.c.o: /home/hellbats/Code/Chitra/src/2D/Traingles.c
+CMakeFiles/buld.dir/src/2D/Traingles.c.o: CMakeFiles/buld.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hellbats/Code/Chitra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/buld.dir/src/2D/Traingles.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/buld.dir/src/2D/Traingles.c.o -MF CMakeFiles/buld.dir/src/2D/Traingles.c.o.d -o CMakeFiles/buld.dir/src/2D/Traingles.c.o -c /home/hellbats/Code/Chitra/src/2D/Traingles.c
+
+CMakeFiles/buld.dir/src/2D/Traingles.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/buld.dir/src/2D/Traingles.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hellbats/Code/Chitra/src/2D/Traingles.c > CMakeFiles/buld.dir/src/2D/Traingles.c.i
+
+CMakeFiles/buld.dir/src/2D/Traingles.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/buld.dir/src/2D/Traingles.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hellbats/Code/Chitra/src/2D/Traingles.c -o CMakeFiles/buld.dir/src/2D/Traingles.c.s
+
+CMakeFiles/buld.dir/src/3D/Cuboid.c.o: CMakeFiles/buld.dir/flags.make
+CMakeFiles/buld.dir/src/3D/Cuboid.c.o: /home/hellbats/Code/Chitra/src/3D/Cuboid.c
+CMakeFiles/buld.dir/src/3D/Cuboid.c.o: CMakeFiles/buld.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hellbats/Code/Chitra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/buld.dir/src/3D/Cuboid.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/buld.dir/src/3D/Cuboid.c.o -MF CMakeFiles/buld.dir/src/3D/Cuboid.c.o.d -o CMakeFiles/buld.dir/src/3D/Cuboid.c.o -c /home/hellbats/Code/Chitra/src/3D/Cuboid.c
+
+CMakeFiles/buld.dir/src/3D/Cuboid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/buld.dir/src/3D/Cuboid.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hellbats/Code/Chitra/src/3D/Cuboid.c > CMakeFiles/buld.dir/src/3D/Cuboid.c.i
+
+CMakeFiles/buld.dir/src/3D/Cuboid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/buld.dir/src/3D/Cuboid.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hellbats/Code/Chitra/src/3D/Cuboid.c -o CMakeFiles/buld.dir/src/3D/Cuboid.c.s
+
+CMakeFiles/buld.dir/src/3D/Math.c.o: CMakeFiles/buld.dir/flags.make
+CMakeFiles/buld.dir/src/3D/Math.c.o: /home/hellbats/Code/Chitra/src/3D/Math.c
+CMakeFiles/buld.dir/src/3D/Math.c.o: CMakeFiles/buld.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hellbats/Code/Chitra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/buld.dir/src/3D/Math.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/buld.dir/src/3D/Math.c.o -MF CMakeFiles/buld.dir/src/3D/Math.c.o.d -o CMakeFiles/buld.dir/src/3D/Math.c.o -c /home/hellbats/Code/Chitra/src/3D/Math.c
+
+CMakeFiles/buld.dir/src/3D/Math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/buld.dir/src/3D/Math.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hellbats/Code/Chitra/src/3D/Math.c > CMakeFiles/buld.dir/src/3D/Math.c.i
+
+CMakeFiles/buld.dir/src/3D/Math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/buld.dir/src/3D/Math.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hellbats/Code/Chitra/src/3D/Math.c -o CMakeFiles/buld.dir/src/3D/Math.c.s
+
+CMakeFiles/buld.dir/src/3D/Triangle.c.o: CMakeFiles/buld.dir/flags.make
+CMakeFiles/buld.dir/src/3D/Triangle.c.o: /home/hellbats/Code/Chitra/src/3D/Triangle.c
+CMakeFiles/buld.dir/src/3D/Triangle.c.o: CMakeFiles/buld.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hellbats/Code/Chitra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/buld.dir/src/3D/Triangle.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/buld.dir/src/3D/Triangle.c.o -MF CMakeFiles/buld.dir/src/3D/Triangle.c.o.d -o CMakeFiles/buld.dir/src/3D/Triangle.c.o -c /home/hellbats/Code/Chitra/src/3D/Triangle.c
+
+CMakeFiles/buld.dir/src/3D/Triangle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/buld.dir/src/3D/Triangle.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hellbats/Code/Chitra/src/3D/Triangle.c > CMakeFiles/buld.dir/src/3D/Triangle.c.i
+
+CMakeFiles/buld.dir/src/3D/Triangle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/buld.dir/src/3D/Triangle.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hellbats/Code/Chitra/src/3D/Triangle.c -o CMakeFiles/buld.dir/src/3D/Triangle.c.s
+
+CMakeFiles/buld.dir/src/Chitra.c.o: CMakeFiles/buld.dir/flags.make
+CMakeFiles/buld.dir/src/Chitra.c.o: /home/hellbats/Code/Chitra/src/Chitra.c
+CMakeFiles/buld.dir/src/Chitra.c.o: CMakeFiles/buld.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hellbats/Code/Chitra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/buld.dir/src/Chitra.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/buld.dir/src/Chitra.c.o -MF CMakeFiles/buld.dir/src/Chitra.c.o.d -o CMakeFiles/buld.dir/src/Chitra.c.o -c /home/hellbats/Code/Chitra/src/Chitra.c
+
+CMakeFiles/buld.dir/src/Chitra.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/buld.dir/src/Chitra.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hellbats/Code/Chitra/src/Chitra.c > CMakeFiles/buld.dir/src/Chitra.c.i
+
+CMakeFiles/buld.dir/src/Chitra.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/buld.dir/src/Chitra.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hellbats/Code/Chitra/src/Chitra.c -o CMakeFiles/buld.dir/src/Chitra.c.s
+
+CMakeFiles/buld.dir/src/UpperLayer.c.o: CMakeFiles/buld.dir/flags.make
+CMakeFiles/buld.dir/src/UpperLayer.c.o: /home/hellbats/Code/Chitra/src/UpperLayer.c
+CMakeFiles/buld.dir/src/UpperLayer.c.o: CMakeFiles/buld.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hellbats/Code/Chitra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/buld.dir/src/UpperLayer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/buld.dir/src/UpperLayer.c.o -MF CMakeFiles/buld.dir/src/UpperLayer.c.o.d -o CMakeFiles/buld.dir/src/UpperLayer.c.o -c /home/hellbats/Code/Chitra/src/UpperLayer.c
+
+CMakeFiles/buld.dir/src/UpperLayer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/buld.dir/src/UpperLayer.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hellbats/Code/Chitra/src/UpperLayer.c > CMakeFiles/buld.dir/src/UpperLayer.c.i
+
+CMakeFiles/buld.dir/src/UpperLayer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/buld.dir/src/UpperLayer.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hellbats/Code/Chitra/src/UpperLayer.c -o CMakeFiles/buld.dir/src/UpperLayer.c.s
+
+CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o: CMakeFiles/buld.dir/flags.make
+CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o: /home/hellbats/Code/Chitra/src/WindowAPI/WindowAPI.c
+CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o: CMakeFiles/buld.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hellbats/Code/Chitra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o -MF CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o.d -o CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o -c /home/hellbats/Code/Chitra/src/WindowAPI/WindowAPI.c
+
+CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hellbats/Code/Chitra/src/WindowAPI/WindowAPI.c > CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.i
+
+CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hellbats/Code/Chitra/src/WindowAPI/WindowAPI.c -o CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.s
 
 # Object files for target buld
 buld_OBJECTS = \
-"CMakeFiles/buld.dir/src/example.c.o"
+"CMakeFiles/buld.dir/src/2D/Circles.c.o" \
+"CMakeFiles/buld.dir/src/2D/Lines.c.o" \
+"CMakeFiles/buld.dir/src/2D/Rectangles.c.o" \
+"CMakeFiles/buld.dir/src/2D/Traingles.c.o" \
+"CMakeFiles/buld.dir/src/3D/Cuboid.c.o" \
+"CMakeFiles/buld.dir/src/3D/Math.c.o" \
+"CMakeFiles/buld.dir/src/3D/Triangle.c.o" \
+"CMakeFiles/buld.dir/src/Chitra.c.o" \
+"CMakeFiles/buld.dir/src/UpperLayer.c.o" \
+"CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o"
 
 # External object files for target buld
 buld_EXTERNAL_OBJECTS =
 
-buld: CMakeFiles/buld.dir/src/example.c.o
+buld: CMakeFiles/buld.dir/src/2D/Circles.c.o
+buld: CMakeFiles/buld.dir/src/2D/Lines.c.o
+buld: CMakeFiles/buld.dir/src/2D/Rectangles.c.o
+buld: CMakeFiles/buld.dir/src/2D/Traingles.c.o
+buld: CMakeFiles/buld.dir/src/3D/Cuboid.c.o
+buld: CMakeFiles/buld.dir/src/3D/Math.c.o
+buld: CMakeFiles/buld.dir/src/3D/Triangle.c.o
+buld: CMakeFiles/buld.dir/src/Chitra.c.o
+buld: CMakeFiles/buld.dir/src/UpperLayer.c.o
+buld: CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o
 buld: CMakeFiles/buld.dir/build.make
 buld: CMakeFiles/buld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hellbats/Code/Chitra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable buld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hellbats/Code/Chitra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable buld"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/buld.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

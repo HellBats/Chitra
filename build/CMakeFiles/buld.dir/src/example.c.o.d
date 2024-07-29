@@ -1,6 +1,6 @@
 CMakeFiles/buld.dir/src/example.c.o: \
  /home/hellbats/Code/Chitra/src/example.c /usr/include/stdc-predef.h \
- /home/hellbats/Code/Chitra/src/include/Chitra.c \
+ /home/hellbats/Code/Chitra/src/include/Chitra.h \
  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -29,9 +29,8 @@ CMakeFiles/buld.dir/src/example.c.o: \
  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
  /usr/include/aarch64-linux-gnu/bits/floatn.h \
  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
- /usr/include/stdlib.h /usr/include/aarch64-linux-gnu/bits/waitflags.h \
- /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
- /usr/include/aarch64-linux-gnu/sys/types.h \
+ /home/hellbats/Code/Chitra/src/include/WindowAPI/Window.h \
+ /usr/include/X11/Xlib.h /usr/include/aarch64-linux-gnu/sys/types.h \
  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
@@ -51,10 +50,13 @@ CMakeFiles/buld.dir/src/example.c.o: \
  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
- /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
- /usr/include/alloca.h /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h /usr/include/X11/X.h \
+ /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
+ /usr/include/X11/Xutil.h /usr/include/X11/keysym.h \
+ /usr/include/X11/keysymdef.h \
  /home/hellbats/Code/Chitra/src/include/Chitra.h \
- /home/hellbats/Code/Chitra/src/include/Traingles.c \
- /home/hellbats/Code/Chitra/src/include/Circles.c \
- /home/hellbats/Code/Chitra/src/include/Lines.c \
- /home/hellbats/Code/Chitra/src/include/Rectangles.c
+ /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
+ /home/hellbats/Code/Chitra/src/include/2D/../Chitra.h \
+ /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
+ /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
+ /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h

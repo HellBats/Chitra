@@ -129,29 +129,245 @@ buld/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/build
 .PHONY : buld/fast
 
-src/example.o: src/example.c.o
-.PHONY : src/example.o
+src/2D/Circles.o: src/2D/Circles.c.o
+.PHONY : src/2D/Circles.o
 
 # target to build an object file
-src/example.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/example.c.o
-.PHONY : src/example.c.o
+src/2D/Circles.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/2D/Circles.c.o
+.PHONY : src/2D/Circles.c.o
 
-src/example.i: src/example.c.i
-.PHONY : src/example.i
+src/2D/Circles.i: src/2D/Circles.c.i
+.PHONY : src/2D/Circles.i
 
 # target to preprocess a source file
-src/example.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/example.c.i
-.PHONY : src/example.c.i
+src/2D/Circles.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/2D/Circles.c.i
+.PHONY : src/2D/Circles.c.i
 
-src/example.s: src/example.c.s
-.PHONY : src/example.s
+src/2D/Circles.s: src/2D/Circles.c.s
+.PHONY : src/2D/Circles.s
 
 # target to generate assembly for a file
-src/example.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/example.c.s
-.PHONY : src/example.c.s
+src/2D/Circles.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/2D/Circles.c.s
+.PHONY : src/2D/Circles.c.s
+
+src/2D/Lines.o: src/2D/Lines.c.o
+.PHONY : src/2D/Lines.o
+
+# target to build an object file
+src/2D/Lines.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/2D/Lines.c.o
+.PHONY : src/2D/Lines.c.o
+
+src/2D/Lines.i: src/2D/Lines.c.i
+.PHONY : src/2D/Lines.i
+
+# target to preprocess a source file
+src/2D/Lines.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/2D/Lines.c.i
+.PHONY : src/2D/Lines.c.i
+
+src/2D/Lines.s: src/2D/Lines.c.s
+.PHONY : src/2D/Lines.s
+
+# target to generate assembly for a file
+src/2D/Lines.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/2D/Lines.c.s
+.PHONY : src/2D/Lines.c.s
+
+src/2D/Rectangles.o: src/2D/Rectangles.c.o
+.PHONY : src/2D/Rectangles.o
+
+# target to build an object file
+src/2D/Rectangles.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/2D/Rectangles.c.o
+.PHONY : src/2D/Rectangles.c.o
+
+src/2D/Rectangles.i: src/2D/Rectangles.c.i
+.PHONY : src/2D/Rectangles.i
+
+# target to preprocess a source file
+src/2D/Rectangles.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/2D/Rectangles.c.i
+.PHONY : src/2D/Rectangles.c.i
+
+src/2D/Rectangles.s: src/2D/Rectangles.c.s
+.PHONY : src/2D/Rectangles.s
+
+# target to generate assembly for a file
+src/2D/Rectangles.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/2D/Rectangles.c.s
+.PHONY : src/2D/Rectangles.c.s
+
+src/2D/Traingles.o: src/2D/Traingles.c.o
+.PHONY : src/2D/Traingles.o
+
+# target to build an object file
+src/2D/Traingles.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/2D/Traingles.c.o
+.PHONY : src/2D/Traingles.c.o
+
+src/2D/Traingles.i: src/2D/Traingles.c.i
+.PHONY : src/2D/Traingles.i
+
+# target to preprocess a source file
+src/2D/Traingles.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/2D/Traingles.c.i
+.PHONY : src/2D/Traingles.c.i
+
+src/2D/Traingles.s: src/2D/Traingles.c.s
+.PHONY : src/2D/Traingles.s
+
+# target to generate assembly for a file
+src/2D/Traingles.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/2D/Traingles.c.s
+.PHONY : src/2D/Traingles.c.s
+
+src/3D/Cuboid.o: src/3D/Cuboid.c.o
+.PHONY : src/3D/Cuboid.o
+
+# target to build an object file
+src/3D/Cuboid.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/3D/Cuboid.c.o
+.PHONY : src/3D/Cuboid.c.o
+
+src/3D/Cuboid.i: src/3D/Cuboid.c.i
+.PHONY : src/3D/Cuboid.i
+
+# target to preprocess a source file
+src/3D/Cuboid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/3D/Cuboid.c.i
+.PHONY : src/3D/Cuboid.c.i
+
+src/3D/Cuboid.s: src/3D/Cuboid.c.s
+.PHONY : src/3D/Cuboid.s
+
+# target to generate assembly for a file
+src/3D/Cuboid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/3D/Cuboid.c.s
+.PHONY : src/3D/Cuboid.c.s
+
+src/3D/Math.o: src/3D/Math.c.o
+.PHONY : src/3D/Math.o
+
+# target to build an object file
+src/3D/Math.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/3D/Math.c.o
+.PHONY : src/3D/Math.c.o
+
+src/3D/Math.i: src/3D/Math.c.i
+.PHONY : src/3D/Math.i
+
+# target to preprocess a source file
+src/3D/Math.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/3D/Math.c.i
+.PHONY : src/3D/Math.c.i
+
+src/3D/Math.s: src/3D/Math.c.s
+.PHONY : src/3D/Math.s
+
+# target to generate assembly for a file
+src/3D/Math.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/3D/Math.c.s
+.PHONY : src/3D/Math.c.s
+
+src/3D/Triangle.o: src/3D/Triangle.c.o
+.PHONY : src/3D/Triangle.o
+
+# target to build an object file
+src/3D/Triangle.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/3D/Triangle.c.o
+.PHONY : src/3D/Triangle.c.o
+
+src/3D/Triangle.i: src/3D/Triangle.c.i
+.PHONY : src/3D/Triangle.i
+
+# target to preprocess a source file
+src/3D/Triangle.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/3D/Triangle.c.i
+.PHONY : src/3D/Triangle.c.i
+
+src/3D/Triangle.s: src/3D/Triangle.c.s
+.PHONY : src/3D/Triangle.s
+
+# target to generate assembly for a file
+src/3D/Triangle.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/3D/Triangle.c.s
+.PHONY : src/3D/Triangle.c.s
+
+src/Chitra.o: src/Chitra.c.o
+.PHONY : src/Chitra.o
+
+# target to build an object file
+src/Chitra.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/Chitra.c.o
+.PHONY : src/Chitra.c.o
+
+src/Chitra.i: src/Chitra.c.i
+.PHONY : src/Chitra.i
+
+# target to preprocess a source file
+src/Chitra.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/Chitra.c.i
+.PHONY : src/Chitra.c.i
+
+src/Chitra.s: src/Chitra.c.s
+.PHONY : src/Chitra.s
+
+# target to generate assembly for a file
+src/Chitra.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/Chitra.c.s
+.PHONY : src/Chitra.c.s
+
+src/UpperLayer.o: src/UpperLayer.c.o
+.PHONY : src/UpperLayer.o
+
+# target to build an object file
+src/UpperLayer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/UpperLayer.c.o
+.PHONY : src/UpperLayer.c.o
+
+src/UpperLayer.i: src/UpperLayer.c.i
+.PHONY : src/UpperLayer.i
+
+# target to preprocess a source file
+src/UpperLayer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/UpperLayer.c.i
+.PHONY : src/UpperLayer.c.i
+
+src/UpperLayer.s: src/UpperLayer.c.s
+.PHONY : src/UpperLayer.s
+
+# target to generate assembly for a file
+src/UpperLayer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/UpperLayer.c.s
+.PHONY : src/UpperLayer.c.s
+
+src/WindowAPI/WindowAPI.o: src/WindowAPI/WindowAPI.c.o
+.PHONY : src/WindowAPI/WindowAPI.o
+
+# target to build an object file
+src/WindowAPI/WindowAPI.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o
+.PHONY : src/WindowAPI/WindowAPI.c.o
+
+src/WindowAPI/WindowAPI.i: src/WindowAPI/WindowAPI.c.i
+.PHONY : src/WindowAPI/WindowAPI.i
+
+# target to preprocess a source file
+src/WindowAPI/WindowAPI.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.i
+.PHONY : src/WindowAPI/WindowAPI.c.i
+
+src/WindowAPI/WindowAPI.s: src/WindowAPI/WindowAPI.c.s
+.PHONY : src/WindowAPI/WindowAPI.s
+
+# target to generate assembly for a file
+src/WindowAPI/WindowAPI.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.s
+.PHONY : src/WindowAPI/WindowAPI.c.s
 
 # Help Target
 help:
@@ -162,9 +378,36 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... buld"
-	@echo "... src/example.o"
-	@echo "... src/example.i"
-	@echo "... src/example.s"
+	@echo "... src/2D/Circles.o"
+	@echo "... src/2D/Circles.i"
+	@echo "... src/2D/Circles.s"
+	@echo "... src/2D/Lines.o"
+	@echo "... src/2D/Lines.i"
+	@echo "... src/2D/Lines.s"
+	@echo "... src/2D/Rectangles.o"
+	@echo "... src/2D/Rectangles.i"
+	@echo "... src/2D/Rectangles.s"
+	@echo "... src/2D/Traingles.o"
+	@echo "... src/2D/Traingles.i"
+	@echo "... src/2D/Traingles.s"
+	@echo "... src/3D/Cuboid.o"
+	@echo "... src/3D/Cuboid.i"
+	@echo "... src/3D/Cuboid.s"
+	@echo "... src/3D/Math.o"
+	@echo "... src/3D/Math.i"
+	@echo "... src/3D/Math.s"
+	@echo "... src/3D/Triangle.o"
+	@echo "... src/3D/Triangle.i"
+	@echo "... src/3D/Triangle.s"
+	@echo "... src/Chitra.o"
+	@echo "... src/Chitra.i"
+	@echo "... src/Chitra.s"
+	@echo "... src/UpperLayer.o"
+	@echo "... src/UpperLayer.i"
+	@echo "... src/UpperLayer.s"
+	@echo "... src/WindowAPI/WindowAPI.o"
+	@echo "... src/WindowAPI/WindowAPI.i"
+	@echo "... src/WindowAPI/WindowAPI.s"
 .PHONY : help
 
 

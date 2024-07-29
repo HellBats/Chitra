@@ -2,6 +2,14 @@
     "files.associations": {
         "stdint.h": "c",
         "stdlib.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "chitra.h": "c",
+        "circles.h": "c",
+        "window.h": "c",
+        "upperlayer.h": "c",
+        "curses.h": "c",
+        "cuboid.h": "c",
+        "triangles.h": "c",
+        "3dtriangle.h": "c"
     }
 }

@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/hellbats/Code/Chitra/build",
+  "command": "/usr/bin/cc  -I/home/hellbats/Code/Chitra/src -g -o CMakeFiles/buld.dir/src/2D/Circles.c.o -c /home/hellbats/Code/Chitra/src/2D/Circles.c",
+  "file": "/home/hellbats/Code/Chitra/src/2D/Circles.c",
+  "output": "CMakeFiles/buld.dir/src/2D/Circles.c.o"
+},
+{
+  "directory": "/home/hellbats/Code/Chitra/build",
+  "command": "/usr/bin/cc  -I/home/hellbats/Code/Chitra/src -g -o CMakeFiles/buld.dir/src/2D/Lines.c.o -c /home/hellbats/Code/Chitra/src/2D/Lines.c",
+  "file": "/home/hellbats/Code/Chitra/src/2D/Lines.c",
+  "output": "CMakeFiles/buld.dir/src/2D/Lines.c.o"
+},
+{
+  "directory": "/home/hellbats/Code/Chitra/build",
+  "command": "/usr/bin/cc  -I/home/hellbats/Code/Chitra/src -g -o CMakeFiles/buld.dir/src/2D/Rectangles.c.o -c /home/hellbats/Code/Chitra/src/2D/Rectangles.c",
+  "file": "/home/hellbats/Code/Chitra/src/2D/Rectangles.c",
+  "output": "CMakeFiles/buld.dir/src/2D/Rectangles.c.o"
+},
+{
+  "directory": "/home/hellbats/Code/Chitra/build",
+  "command": "/usr/bin/cc  -I/home/hellbats/Code/Chitra/src -g -o CMakeFiles/buld.dir/src/2D/Traingles.c.o -c /home/hellbats/Code/Chitra/src/2D/Traingles.c",
+  "file": "/home/hellbats/Code/Chitra/src/2D/Traingles.c",
+  "output": "CMakeFiles/buld.dir/src/2D/Traingles.c.o"
+},
+{
+  "directory": "/home/hellbats/Code/Chitra/build",
+  "command": "/usr/bin/cc  -I/home/hellbats/Code/Chitra/src -g -o CMakeFiles/buld.dir/src/3D/Cuboid.c.o -c /home/hellbats/Code/Chitra/src/3D/Cuboid.c",
+  "file": "/home/hellbats/Code/Chitra/src/3D/Cuboid.c",
+  "output": "CMakeFiles/buld.dir/src/3D/Cuboid.c.o"
+},
+{
+  "directory": "/home/hellbats/Code/Chitra/build",
+  "command": "/usr/bin/cc  -I/home/hellbats/Code/Chitra/src -g -o CMakeFiles/buld.dir/src/3D/Math.c.o -c /home/hellbats/Code/Chitra/src/3D/Math.c",
+  "file": "/home/hellbats/Code/Chitra/src/3D/Math.c",
+  "output": "CMakeFiles/buld.dir/src/3D/Math.c.o"
+},
+{
+  "directory": "/home/hellbats/Code/Chitra/build",
+  "command": "/usr/bin/cc  -I/home/hellbats/Code/Chitra/src -g -o CMakeFiles/buld.dir/src/3D/Triangle.c.o -c /home/hellbats/Code/Chitra/src/3D/Triangle.c",
+  "file": "/home/hellbats/Code/Chitra/src/3D/Triangle.c",
+  "output": "CMakeFiles/buld.dir/src/3D/Triangle.c.o"
+},
+{
+  "directory": "/home/hellbats/Code/Chitra/build",
+  "command": "/usr/bin/cc  -I/home/hellbats/Code/Chitra/src -g -o CMakeFiles/buld.dir/src/Chitra.c.o -c /home/hellbats/Code/Chitra/src/Chitra.c",
+  "file": "/home/hellbats/Code/Chitra/src/Chitra.c",
+  "output": "CMakeFiles/buld.dir/src/Chitra.c.o"
+},
+{
+  "directory": "/home/hellbats/Code/Chitra/build",
+  "command": "/usr/bin/cc  -I/home/hellbats/Code/Chitra/src -g -o CMakeFiles/buld.dir/src/UpperLayer.c.o -c /home/hellbats/Code/Chitra/src/UpperLayer.c",
+  "file": "/home/hellbats/Code/Chitra/src/UpperLayer.c",
+  "output": "CMakeFiles/buld.dir/src/UpperLayer.c.o"
+},
+{
+  "directory": "/home/hellbats/Code/Chitra/build",
+  "command": "/usr/bin/cc  -I/home/hellbats/Code/Chitra/src -g -o CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o -c /home/hellbats/Code/Chitra/src/WindowAPI/WindowAPI.c",
+  "file": "/home/hellbats/Code/Chitra/src/WindowAPI/WindowAPI.c",
+  "output": "CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o"
+}
+]
