@@ -64,21 +64,36 @@ float SinDeg(float x)
     unsigned int *number = (unsigned int *)&x;
     int maintisa = (*number <<9)>>9;
     x = x*3.14/180;
-    if((((int)x/90))%2 != 1 || maintisa!=0) return x-Power(x,3)/6+Power(x,5)/120-Power(x,7)/5040+Power(x,9)/3672880;
+    float table[PRECISION];
+    table[0] = x;
+    float sum = x;
+    if((((int)x/90))%2 != 1 || maintisa!=0) 
+    {
+        for(int i=1;i<PRECISION;i++)
+        {
+            table[i] = table[i-1]*x/(float)(2*i+1);
+            table[i] = table[i]*x/(float)(2*i);
+            sum += (i%2==0?table[i]:-table[i]);
+        }
+        return sum;
+    }
     return 1.0;
 }
 
 float CosDeg(float x)
 {
-    while(x>360) x-=360;
+    while(x>=360) x-=360;
     x = x*3.14/180;
-    return 1-Power(x,2)/2+Power(x,4)/24-Power(x,6)/720+Power(x,8)/40320;
-}
-
-float Power(float x,int a)
-{
-    float result  = x;
-    for(;a>1;a--) result*=x;
+    float table[PRECISION];
+    table[0] = 1;
+    float sum = 1;
+    for(int i=1;i<PRECISION;i++)
+    {
+        table[i] = table[i-1]*x/(float)(2*i);
+        table[i] = table[i]*x/(float)(2*i-1);
+        sum += (i%2==0?table[i]:-table[i]);
+    }
+    return sum;
 }
 
 Matrix4x4 CalculateProjectionMatrix()

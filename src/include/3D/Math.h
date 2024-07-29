@@ -8,11 +8,11 @@
 #define SCREENDEPTH 500.0
 #define CAMERAX 0.0
 #define CAMERAY 0.0
-#define CAMERAZ -10.0
+#define CAMERAZ -20.0
 #define CAMERAROTX 0
 #define CAMERAROTY 0
 #define CAMERAROTZ 0
-
+#define PRECISION 10
 
 typedef struct 
 {
@@ -34,7 +34,7 @@ typedef struct
 
 
 
-float Power(float x,int a);
+float CalculateTaylorTerm(float x,int a);
 float SinDeg(float x);
 float CosDeg(float x);
 Matrix2X2 AddMatrix2X2(Matrix2X2 matrix1,Matrix2X2 matrix2);
