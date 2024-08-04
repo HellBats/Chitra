@@ -10,6 +10,7 @@
         "curses.h": "c",
         "cuboid.h": "c",
         "triangles.h": "c",
-        "3dtriangle.h": "c"
+        "3dtriangle.h": "c",
+        "rectangles.h": "c"
     }
 }

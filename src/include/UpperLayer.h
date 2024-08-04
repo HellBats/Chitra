@@ -1,9 +1,9 @@
 #include<time.h>
 #include"include/Chitra.h"
-#define WIDTH 1900
-#define HEIGHT 1000
+#define WIDTH 1980
+#define HEIGHT 1080
 
 
 static uint32_t pixels[WIDTH*HEIGHT];
 void Setup(Chitra chitra);
-void EventLoop(Chitra chitra,clock_t);
+void EventLoop(Chitra chitra,clock_t start);

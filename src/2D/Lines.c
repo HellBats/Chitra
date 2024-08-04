@@ -7,31 +7,22 @@
 
 void ChitraDrawLine(Chitra chitra,Line line,uint32_t color)
 {
-    float mx,cx,my,cy;
     int dx = ((line.x1-line.x0)>>31) | 1;
     int dy = ((line.y1-line.y0)>>31) | 1;
     if(line.x1==line.x0)
     {
         for(;line.y0!=line.y1;line.y0+=dy)
-        {
-            if(line.y0>0 && line.y0<chitra.height)
-            {
-                chitra.pixels[line.y0*chitra.stride+line.x0] = color;
-            }
-        }
+            if(line.y0>0 && line.y0<chitra.height) chitra.pixels[line.y0*chitra.stride+line.x0] = color;
     }
-    if(line.y1==line.y0)
+    else if(line.y1==line.y0)
     {
         for(;line.x0!=line.x1;line.x0+=dx)
-        {
             if(line.x0>0 && line.x0<chitra.width)
-            {
                 chitra.pixels[line.y0*chitra.stride+line.x0] = color;
-            }
-        }
     }
     else
     {
+        float mx,cx,my,cy;
         mx = ((float)(line.y1-line.y0))/((float)(line.x1-line.x0));
         my = ((float)(line.x1-line.x0))/((float)(line.y1-line.y0));
         cx = line.y1 - mx*line.x1;
@@ -39,19 +30,14 @@ void ChitraDrawLine(Chitra chitra,Line line,uint32_t color)
         for(;line.x0!=line.x1;line.x0+=dx)
         {
             int y = (int)(mx*line.x0 + cx);
-            // printf("%d ",line.x0);
-            if(y>0 && line.x0>0)
-            {
+            if(y>0 && line.x0>0 && y<chitra.height && line.x0<chitra.width)
                 chitra.pixels[y*chitra.stride+line.x0] = color;
-            }
         }
         for(;line.y0!=line.y1;line.y0+=dy)
         {
             int x = (int)(my*line.y0 + cy);
-            if(x>0 && line.y0>0)
-            {
+            if(x>0 && line.y0>0 && x<chitra.width && line.y0<chitra.height)
                 chitra.pixels[line.y0*chitra.stride+x] = color;
-            }
         }
     }
 }
@@ -64,22 +50,12 @@ void ChitraAntiAiliasingDrawLine(Chitra chitra,Line line,uint32_t color)
     if(line.x1==line.x0)
     {
         for(;line.y0!=line.y1;line.y0+=dy)
-        {
-            if(line.y0>0 && line.y0<chitra.height)
-            {
-                chitra.pixels[line.y0*chitra.width+line.x0] = color;
-            }
-        }
+            if(line.y0>0 && line.y0<chitra.height) chitra.pixels[line.y0*chitra.width+line.x0] = color;
     }
     if(line.y1==line.y0)
     {
         for(;line.x0!=line.x1;line.x0+=dx)
-        {
-            if(line.x0>0 && line.x0<chitra.width)
-            {
-                chitra.pixels[line.y0*chitra.width+line.x0] = color;
-            }
-        }
+            if(line.x0>0 && line.x0<chitra.width) chitra.pixels[line.y0*chitra.width+line.x0] = color;
     }
     else
     {
@@ -91,23 +67,17 @@ void ChitraAntiAiliasingDrawLine(Chitra chitra,Line line,uint32_t color)
         {
             int y = (int)(mx*i + cx);
             // printf("%d ",line.x0);
-            if(y>0 && i>0)
-            {
+            if(y>0 && i>0 && y<chitra.height && i>chitra.width)
                 chitra.pixels[y*chitra.stride+i] = color;
-            }
         }
         for(int j=line.y0;j!=line.y1;j+=dy)
         {
             int x = (int)(my*j + cy);
-            if(x>0 && j>0)
-            {
+            if(x>0 && j>0 && x<chitra.width && j<chitra.height)
                 chitra.pixels[j*chitra.stride+x] = color;
-            }
         } 
         if(NormalizedRectangle(chitra,line.x0,line.y0,line.x1,line.y1,&line.x0,&line.y0,&line.x1,&line.y1))
-        {
             for(int i=line.x0;i!=line.x1;i+=1)
-            {
                 for(int j=line.y0;j!=line.y1;j+=1)
                 {
                     int x2 =i-1,y2=j-1,x3=i+1,y3=j+1;
@@ -133,8 +103,6 @@ void ChitraAntiAiliasingDrawLine(Chitra chitra,Line line,uint32_t color)
                         chitra.pixels[j*chitra.stride+i] = new_color;
                     }            
                 }
-            }
-        }
     }
 }
 

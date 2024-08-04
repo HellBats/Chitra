@@ -90,7 +90,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-lX11",
+				"fragment" : "-lSDL2",
 				"role" : "libraries"
 			}
 		],

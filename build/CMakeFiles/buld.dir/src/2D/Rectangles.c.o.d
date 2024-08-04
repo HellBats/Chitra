@@ -1,6 +1,8 @@
 CMakeFiles/buld.dir/src/2D/Rectangles.c.o: \
  /home/hellbats/Code/Chitra/src/2D/Rectangles.c \
  /usr/include/stdc-predef.h \
+ /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
+ /home/hellbats/Code/Chitra/src/include/Chitra.h \
  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -29,8 +31,6 @@ CMakeFiles/buld.dir/src/2D/Rectangles.c.o: \
  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
  /usr/include/aarch64-linux-gnu/bits/floatn.h \
  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
- /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
- /home/hellbats/Code/Chitra/src/include/Chitra.h \
  /home/hellbats/Code/Chitra/src/include/3D/Math.h /usr/include/pthread.h \
  /usr/include/sched.h /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \

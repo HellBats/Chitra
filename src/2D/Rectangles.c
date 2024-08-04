@@ -1,7 +1,5 @@
 #ifndef RECTANGLES_C
 #define RECTANGLES_C
-#include<stdint.h>
-#include<stdio.h>
 #include"include/2D/Rectangles.h"
 
 void ChitraFillRectangle(Chitra chitra,Rectangle rectangle,uint32_t color)
@@ -12,12 +10,8 @@ void ChitraFillRectangle(Chitra chitra,Rectangle rectangle,uint32_t color)
     {
         // printf("%d %d %d %d\n",x,y,x_,y_);
         for(;y<y_;y++)
-        {
-            for(int i=x;i<x_;i++)
-            {  
+            for(int i=x;i<x_;i++) 
                 chitra.pixels[y*chitra.stride+i] = MixRGBA(chitra.pixels[y*chitra.stride+i],color);
-            }
-        }
     }
 }
 

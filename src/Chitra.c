@@ -15,10 +15,7 @@ Chitra NewChitra(uint32_t *pixels, size_t width,size_t height)
 
 void ChitraFill(Chitra chitra,uint32_t color)
 {
-    for(size_t i=0;i<chitra.height*chitra.width;i++)
-    {
-        chitra.pixels[i] = color;
-    }
+    for(size_t i=0;i<chitra.height*chitra.width;i++) chitra.pixels[i] = color;
 }
 
 char ChitraSavePPM(Chitra chitra,const char* path)
@@ -58,7 +55,7 @@ char NormalizedRectangle(Chitra chitra,int x,int y,int x_, int y_,int *x1,int *y
     int x_not_min = (min_x == x)?x_:x;
     int y_not_min = (min_y == y)?y_:y;
     // printf("%d %d %d %d\n",min_x,min_y,x_not_min,y_not_min);
-    if(min_x>(int)chitra.width || min_y>(int)chitra.height || x_not_min<0 || y_not_min<0)
+    if(min_x>chitra.width || min_y>chitra.height || x_not_min<0 || y_not_min<0)
     {
         return 0;
     }
@@ -122,7 +119,6 @@ uint8_t MixComps(uint32_t c1,uint32_t c2,uint32_t t1,uint32_t t2)
     // c2 over c1
     uint32_t num = t2*c2+((255-t2)*t1*c1)/255;
     uint32_t den = t2 + ((255-t2)*t1)/255;
-    // printf("%f %f",num,den);
     return (uint8_t)(num/den);
 }
 
@@ -131,13 +127,8 @@ uint32_t MixRGBA(uint32_t c1,uint32_t c2)
     uint8_t comp1[COMP_COUNTS], comp2[COMP_COUNTS];
     UnpackRGBA(c1,comp1);
     UnpackRGBA(c2,comp2);
-    for(size_t i=0;i<COMP_COUNTS-1;i++)
-    {
-        // float t1 = ((float)comp1[COMP_ALPHA])/255.0;
-        // float t2 = ((float)comp2[COMP_ALPHA])/255.0;
-        // printf("%d %d",comp1[COMP_ALPHA],comp2[COMP_ALPHA]);
+    for(size_t i=0;i<COMP_COUNTS-1;i++) 
         comp1[i] = MixComps(comp1[i],comp2[i],comp1[COMP_ALPHA],comp2[COMP_ALPHA]);
-    }
     return PackRGBA(comp1);
 }
 #endif
