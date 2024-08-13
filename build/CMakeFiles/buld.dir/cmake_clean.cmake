@@ -19,6 +19,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/buld.dir/src/UpperLayer.c.o.d"
   "CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o"
   "CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o.d"
+  "CMakeFiles/buld.dir/src/utils/PNGHandler.c.o"
+  "CMakeFiles/buld.dir/src/utils/PNGHandler.c.o.d"
+  "CMakeFiles/buld.dir/src/utils/PPMReader.c.o"
+  "CMakeFiles/buld.dir/src/utils/PPMReader.c.o.d"
   "buld"
   "buld.pdb"
 )

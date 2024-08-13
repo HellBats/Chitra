@@ -369,6 +369,54 @@ src/WindowAPI/WindowAPI.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.s
 .PHONY : src/WindowAPI/WindowAPI.c.s
 
+src/utils/PNGHandler.o: src/utils/PNGHandler.c.o
+.PHONY : src/utils/PNGHandler.o
+
+# target to build an object file
+src/utils/PNGHandler.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/utils/PNGHandler.c.o
+.PHONY : src/utils/PNGHandler.c.o
+
+src/utils/PNGHandler.i: src/utils/PNGHandler.c.i
+.PHONY : src/utils/PNGHandler.i
+
+# target to preprocess a source file
+src/utils/PNGHandler.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/utils/PNGHandler.c.i
+.PHONY : src/utils/PNGHandler.c.i
+
+src/utils/PNGHandler.s: src/utils/PNGHandler.c.s
+.PHONY : src/utils/PNGHandler.s
+
+# target to generate assembly for a file
+src/utils/PNGHandler.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/utils/PNGHandler.c.s
+.PHONY : src/utils/PNGHandler.c.s
+
+src/utils/PPMReader.o: src/utils/PPMReader.c.o
+.PHONY : src/utils/PPMReader.o
+
+# target to build an object file
+src/utils/PPMReader.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/utils/PPMReader.c.o
+.PHONY : src/utils/PPMReader.c.o
+
+src/utils/PPMReader.i: src/utils/PPMReader.c.i
+.PHONY : src/utils/PPMReader.i
+
+# target to preprocess a source file
+src/utils/PPMReader.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/utils/PPMReader.c.i
+.PHONY : src/utils/PPMReader.c.i
+
+src/utils/PPMReader.s: src/utils/PPMReader.c.s
+.PHONY : src/utils/PPMReader.s
+
+# target to generate assembly for a file
+src/utils/PPMReader.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/buld.dir/build.make CMakeFiles/buld.dir/src/utils/PPMReader.c.s
+.PHONY : src/utils/PPMReader.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -408,6 +456,12 @@ help:
 	@echo "... src/WindowAPI/WindowAPI.o"
 	@echo "... src/WindowAPI/WindowAPI.i"
 	@echo "... src/WindowAPI/WindowAPI.s"
+	@echo "... src/utils/PNGHandler.o"
+	@echo "... src/utils/PNGHandler.i"
+	@echo "... src/utils/PNGHandler.s"
+	@echo "... src/utils/PPMReader.o"
+	@echo "... src/utils/PPMReader.i"
+	@echo "... src/utils/PPMReader.s"
 .PHONY : help
 
 

@@ -3,9 +3,11 @@
 
 #include<stdint.h>
 #include<stdio.h>
+#include<stdlib.h>
 
 
 #define ANTIAIALISING 1
+#define return_defer(value) do {result=value; goto defer;} while (0)
 #define Chitra_NULL (Chitra) {0}
 typedef struct 
 {
@@ -13,6 +15,7 @@ typedef struct
     size_t height;
     size_t width;
     size_t stride;
+    unsigned char background_opacity;
 }Chitra;
 
 typedef enum
@@ -25,6 +28,9 @@ typedef enum
     COMP_COUNTS,
 } comp_index;
 
+
+#include"PPMReader.h"
+#include"PNGHandler.h"
 #include"3D/Math.h"
 #include"2D/Triangles.h"
 #include"2D/Circles.h"
@@ -43,5 +49,5 @@ void UnpackRGBA(uint32_t c,uint8_t comp[COMP_COUNTS]);
 uint32_t PackRGBA(uint8_t comp[COMP_COUNTS]);
 uint8_t MixComps(uint32_t c1,uint32_t c2,uint32_t t1,uint32_t t2);
 uint32_t MixRGBA(uint32_t c1,uint32_t c2);
-
+Chitra ChitraCopy(Chitra chitra);
 #endif

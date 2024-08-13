@@ -18,6 +18,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/hellbats/Code/Chitra/src/Chitra.c" "CMakeFiles/buld.dir/src/Chitra.c.o" "gcc" "CMakeFiles/buld.dir/src/Chitra.c.o.d"
   "/home/hellbats/Code/Chitra/src/UpperLayer.c" "CMakeFiles/buld.dir/src/UpperLayer.c.o" "gcc" "CMakeFiles/buld.dir/src/UpperLayer.c.o.d"
   "/home/hellbats/Code/Chitra/src/WindowAPI/WindowAPI.c" "CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o" "gcc" "CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o.d"
+  "/home/hellbats/Code/Chitra/src/utils/PNGHandler.c" "CMakeFiles/buld.dir/src/utils/PNGHandler.c.o" "gcc" "CMakeFiles/buld.dir/src/utils/PNGHandler.c.o.d"
+  "/home/hellbats/Code/Chitra/src/utils/PPMReader.c" "CMakeFiles/buld.dir/src/utils/PPMReader.c.o" "gcc" "CMakeFiles/buld.dir/src/utils/PPMReader.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

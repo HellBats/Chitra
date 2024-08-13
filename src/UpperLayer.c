@@ -8,15 +8,40 @@ Matrix4x4 PROJECTION_MATRIX;
 void Setup(Chitra chitra)
 {
     PROJECTION_MATRIX = CalculateProjectionMatrix();
-    // Circle circle;
-    // circle.pos_x = 600;
-    // circle.pos_y = 600;
-    // circle.radius = 50;
-    // ChitraAltFillCircle(chitra,circle,0xFFAAAAAA);
+    Circle circle;
+    Line line;
+    line.x0 = 0;
+    line.x1 = 800;
+    line.y0 = 0;
+    line.y1 = 800;
+    circle.pos_x = 600;
+    circle.pos_y = 600;
+    circle.radius = 20;
+    ChitraAltFillCircle(chitra,circle,0xFF0011CC);
+    // uint32_t color = 0xFF0011CC;
+    // uint32_t transparency = 80;
+    // transparency = (transparency<<24);
+    // color = (color & 0x00FFFFFF) | transparency;
+    // color = MixRGBA(0xFFFFFFFF,color);
+    // ChitraAntiAiliasingDrawLine(chitra,line,color);
+    WritePNG("new_image.png",chitra);
+    // int width,height,channels;
+    // char path[] = "image.png"; 
+    // Chitra chitraq = ReadPNG(path,&width,&height,&channels);
+    // ChitraSavePPM(chitraq,"image.ppm");
     ChitraSavePPM(chitra,"output.ppm");
 }
 
 
+
+
+// void EventLoop(Chitra chitra,clock_t start)
+// {
+//     ChitraFill(chitra,0xFFFFFFFF);
+//     increment = (180*(clock()-start)/(CLOCKS_PER_SEC)); 
+//     Circle circle = {.pos_x=100+increment,.pos_y=100,.radius=20};
+//     ChitraAltFillCircle(chitra,circle,0xFFFF0000);
+// }
 
 void EventLoop(Chitra chitra,clock_t start)
 {   
@@ -26,14 +51,7 @@ void EventLoop(Chitra chitra,clock_t start)
     float sin_rot_y = SinDeg(CAMERAROTY+increment);
     float cos_rot_y = CosDeg(CAMERAROTY+increment);
     const int NUMBER = 64;
-    float points_array[NUMBER][4]; //= {{-4,-4,8,1},
-                                // {-4,4,8,1},
-                                // {4,4,8,1},
-                                // {4,-4,8,1},
-                                // {-4,-4,0,1},
-                                // {-4,4,0,1},
-                                // {4,4,0,1},
-                                // {4,-4,0,1}};
+    float points_array[NUMBER][4];
     for(int i=0;i<4;i++)
         for(int j=0;j<4;j++)
             for(int k=0;k<4;k++)
@@ -64,32 +82,4 @@ void EventLoop(Chitra chitra,clock_t start)
         circles[i].radius = 5;
         ChitraAltFillCircle(chitra,circles[i],0xFF000000 | 255-3*i | -i*i/32 + 2*i + 128 <<8 | 2*i <1<16);
     }
-    // Triangle triangle1,triangle2;
-    // Line line1,line2;
-    // for(int i=0;i<3;i++)
-    // {
-    //     triangle1.x[i] = points[i].cords[0];
-    //     triangle1.y[i] = points[i].cords[1];
-    // }
-
-    // triangle2.x[0] = points[0].cords[0];
-    // triangle2.y[0] = points[0].cords[1];
-    // triangle2.x[1] = points[2].cords[0];
-    // triangle2.y[1] = points[2].cords[1];
-    // triangle2.x[2] = points[3].cords[0];
-    // triangle2.y[2] = points[3].cords[1];
-    // line1.x0 = points[0].cords[0];
-    // line1.y0 = points[0].cords[1];
-    // line1.x1 = points[2].cords[0];
-    // line1.y1 = points[2].cords[1];
-    // line2.x0 = points[1].cords[0];
-    // line2.y0 = points[1].cords[1];
-    // line2.x1 = points[3].cords[0];
-    // line2.y1 = points[3].cords[1];
-    // ChitraAntiAiliasingFillTriangle(chitra,triangle1,0xFFFF0000);
-    // ChitraAntiAiliasingFillTriangle(chitra,triangle2,0xFFFF0000);
-    // // ChitraDrawLine(chitra,line1,0xFFFF0000);
-    // // ChitraDrawLine(chitra,line2,0xFFFF0000);
-    // ChitraAntiAiliasingDrawLine(chitra,line1,0xFFFF0000);
-    // ChitraAntiAiliasingDrawLine(chitra,line1,0xFFFF0000);
 }

@@ -4,7 +4,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include"include/Chitra.h"
-#define return_defer(value) do {result=value; goto defer;} while (0)
+
 
 
 Chitra NewChitra(uint32_t *pixels, size_t width,size_t height)
@@ -108,9 +108,7 @@ uint32_t PackRGBA(uint8_t comp[COMP_COUNTS])
 {
     uint32_t c = 0;
     for(int i=0;i<COMP_COUNTS;i++)
-    {
         c |= comp[i] << 8*(i);
-    }
     return c;
 }
 
@@ -128,7 +126,40 @@ uint32_t MixRGBA(uint32_t c1,uint32_t c2)
     UnpackRGBA(c1,comp1);
     UnpackRGBA(c2,comp2);
     for(size_t i=0;i<COMP_COUNTS-1;i++) 
-        comp1[i] = MixComps(comp1[i],comp2[i],comp1[COMP_ALPHA],comp2[COMP_ALPHA]);
-    return PackRGBA(comp1);
+        comp2[i] = MixComps(comp1[i],comp2[i],comp1[COMP_ALPHA],comp2[COMP_ALPHA]);
+    if(comp1[COMP_ALPHA]==255)
+        comp2[COMP_ALPHA] = 255;
+    return PackRGBA(comp2);
+}
+
+Chitra ChitraCopy(Chitra chitra)
+{
+    uint32_t *pixels = (uint32_t*)malloc(sizeof(uint32_t)*chitra.height*chitra.width);
+    Chitra chitra_new = NewChitra(pixels,chitra.width,chitra.height);
+    for(int i=0;i<chitra.height*chitra.width;i++)
+        chitra_new.pixels[i] = chitra.pixels[i];
+    return chitra_new;
+}
+
+Chitra Resize(Chitra chitra,size_t width,size_t height)
+{
+    uint32_t *pixels = (uint32_t*)malloc(sizeof(uint32_t)*chitra.height*chitra.width);
+    Chitra chitra_new = NewChitra(pixels,chitra.width,chitra.height);
+    float k=0,l=0;
+    float w_ratio = chitra_new.width/chitra.width;
+    float h_ratio = chitra_new.height/chitra.height;
+    uint32_t popularity_table[(int)w_ratio*(int)h_ratio];
+    for(int i=0;i<width;i++)
+    {
+        for(int j=0;j<height;j++)
+        {
+            
+        }
+    }
+} 
+
+uint32_t MostFrequentColor(uint32_t table[],size_t n)
+{
+    
 }
 #endif

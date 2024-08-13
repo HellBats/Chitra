@@ -10,506 +10,8 @@ CMakeFiles/buld.dir/src/2D/Circles.c.o: /home/hellbats/Code/Chitra/src/2D/Circle
   /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
   /home/hellbats/Code/Chitra/src/include/3D/Math.h \
   /home/hellbats/Code/Chitra/src/include/Chitra.h \
-  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
-  /usr/include/aarch64-linux-gnu/bits/endian.h \
-  /usr/include/aarch64-linux-gnu/bits/endianness.h \
-  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
-  /usr/include/aarch64-linux-gnu/bits/floatn.h \
-  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/aarch64-linux-gnu/bits/long-double.h \
-  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
-  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/aarch64-linux-gnu/bits/sched.h \
-  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/aarch64-linux-gnu/bits/time.h \
-  /usr/include/aarch64-linux-gnu/bits/time64.h \
-  /usr/include/aarch64-linux-gnu/bits/timesize.h \
-  /usr/include/aarch64-linux-gnu/bits/types.h \
-  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
-  /usr/include/aarch64-linux-gnu/bits/wchar.h \
-  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
-  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
-  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
-  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/time.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h
-
-CMakeFiles/buld.dir/src/2D/Lines.c.o: /home/hellbats/Code/Chitra/src/2D/Lines.c \
-  /home/hellbats/Code/Chitra/src/include/Chitra.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
-  /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
-  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
-  /home/hellbats/Code/Chitra/src/include/Chitra.h \
-  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
-  /usr/include/aarch64-linux-gnu/bits/endian.h \
-  /usr/include/aarch64-linux-gnu/bits/endianness.h \
-  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
-  /usr/include/aarch64-linux-gnu/bits/floatn.h \
-  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/aarch64-linux-gnu/bits/long-double.h \
-  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
-  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/aarch64-linux-gnu/bits/sched.h \
-  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/aarch64-linux-gnu/bits/time.h \
-  /usr/include/aarch64-linux-gnu/bits/time64.h \
-  /usr/include/aarch64-linux-gnu/bits/timesize.h \
-  /usr/include/aarch64-linux-gnu/bits/types.h \
-  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
-  /usr/include/aarch64-linux-gnu/bits/wchar.h \
-  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
-  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
-  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
-  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/time.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h
-
-CMakeFiles/buld.dir/src/2D/Rectangles.c.o: /home/hellbats/Code/Chitra/src/2D/Rectangles.c \
-  /home/hellbats/Code/Chitra/src/include/Chitra.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
-  /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
-  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
-  /home/hellbats/Code/Chitra/src/include/Chitra.h \
-  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
-  /usr/include/aarch64-linux-gnu/bits/endian.h \
-  /usr/include/aarch64-linux-gnu/bits/endianness.h \
-  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
-  /usr/include/aarch64-linux-gnu/bits/floatn.h \
-  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/aarch64-linux-gnu/bits/long-double.h \
-  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
-  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/aarch64-linux-gnu/bits/sched.h \
-  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/aarch64-linux-gnu/bits/time.h \
-  /usr/include/aarch64-linux-gnu/bits/time64.h \
-  /usr/include/aarch64-linux-gnu/bits/timesize.h \
-  /usr/include/aarch64-linux-gnu/bits/types.h \
-  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
-  /usr/include/aarch64-linux-gnu/bits/wchar.h \
-  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
-  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
-  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
-  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/time.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h
-
-CMakeFiles/buld.dir/src/2D/Traingles.c.o: /home/hellbats/Code/Chitra/src/2D/Traingles.c \
-  /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
-  /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
-  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
-  /home/hellbats/Code/Chitra/src/include/Chitra.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
-  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
-  /home/hellbats/Code/Chitra/src/include/Chitra.h \
-  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
-  /usr/include/aarch64-linux-gnu/bits/endian.h \
-  /usr/include/aarch64-linux-gnu/bits/endianness.h \
-  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
-  /usr/include/aarch64-linux-gnu/bits/floatn.h \
-  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/aarch64-linux-gnu/bits/long-double.h \
-  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
-  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/aarch64-linux-gnu/bits/sched.h \
-  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/aarch64-linux-gnu/bits/time.h \
-  /usr/include/aarch64-linux-gnu/bits/time64.h \
-  /usr/include/aarch64-linux-gnu/bits/timesize.h \
-  /usr/include/aarch64-linux-gnu/bits/types.h \
-  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
-  /usr/include/aarch64-linux-gnu/bits/wchar.h \
-  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
-  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
-  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
-  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/time.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h
-
-CMakeFiles/buld.dir/src/3D/Cuboid.c.o: /home/hellbats/Code/Chitra/src/3D/Cuboid.c \
-  /home/hellbats/Code/Chitra/src/include/Chitra.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
-  /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
-  /home/hellbats/Code/Chitra/src/include/3D/Cuboid.h \
-  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
-  /home/hellbats/Code/Chitra/src/include/Chitra.h \
-  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
-  /usr/include/aarch64-linux-gnu/bits/endian.h \
-  /usr/include/aarch64-linux-gnu/bits/endianness.h \
-  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
-  /usr/include/aarch64-linux-gnu/bits/floatn.h \
-  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/aarch64-linux-gnu/bits/long-double.h \
-  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
-  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/aarch64-linux-gnu/bits/sched.h \
-  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/aarch64-linux-gnu/bits/time.h \
-  /usr/include/aarch64-linux-gnu/bits/time64.h \
-  /usr/include/aarch64-linux-gnu/bits/timesize.h \
-  /usr/include/aarch64-linux-gnu/bits/types.h \
-  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
-  /usr/include/aarch64-linux-gnu/bits/wchar.h \
-  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
-  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
-  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
-  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/time.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h
-
-CMakeFiles/buld.dir/src/3D/Math.c.o: /home/hellbats/Code/Chitra/src/3D/Math.c \
-  /home/hellbats/Code/Chitra/src/include/Chitra.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
-  /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
-  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
-  /home/hellbats/Code/Chitra/src/include/Chitra.h \
-  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
-  /usr/include/aarch64-linux-gnu/bits/endian.h \
-  /usr/include/aarch64-linux-gnu/bits/endianness.h \
-  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
-  /usr/include/aarch64-linux-gnu/bits/floatn.h \
-  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/aarch64-linux-gnu/bits/long-double.h \
-  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
-  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/aarch64-linux-gnu/bits/sched.h \
-  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/aarch64-linux-gnu/bits/time.h \
-  /usr/include/aarch64-linux-gnu/bits/time64.h \
-  /usr/include/aarch64-linux-gnu/bits/timesize.h \
-  /usr/include/aarch64-linux-gnu/bits/types.h \
-  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
-  /usr/include/aarch64-linux-gnu/bits/wchar.h \
-  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
-  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
-  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
-  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/time.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h
-
-CMakeFiles/buld.dir/src/3D/Triangle.c.o: /home/hellbats/Code/Chitra/src/3D/Triangle.c \
-  /home/hellbats/Code/Chitra/src/include/Chitra.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
-  /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
-  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
-  /home/hellbats/Code/Chitra/src/include/Chitra.h \
-  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
-  /usr/include/aarch64-linux-gnu/bits/endian.h \
-  /usr/include/aarch64-linux-gnu/bits/endianness.h \
-  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
-  /usr/include/aarch64-linux-gnu/bits/floatn.h \
-  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/aarch64-linux-gnu/bits/long-double.h \
-  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
-  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/aarch64-linux-gnu/bits/sched.h \
-  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/aarch64-linux-gnu/bits/time.h \
-  /usr/include/aarch64-linux-gnu/bits/time64.h \
-  /usr/include/aarch64-linux-gnu/bits/timesize.h \
-  /usr/include/aarch64-linux-gnu/bits/types.h \
-  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
-  /usr/include/aarch64-linux-gnu/bits/wchar.h \
-  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
-  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
-  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
-  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/time.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h
-
-CMakeFiles/buld.dir/src/Chitra.c.o: /home/hellbats/Code/Chitra/src/Chitra.c \
-  /home/hellbats/Code/Chitra/src/include/Chitra.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
-  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
-  /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
-  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
-  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/PNGHandler.h \
+  /home/hellbats/Code/Chitra/src/include/PPMReader.h \
   /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/aarch64-linux-gnu/bits/byteswap.h \
   /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
@@ -518,7 +20,10 @@ CMakeFiles/buld.dir/src/Chitra.c.o: /home/hellbats/Code/Chitra/src/Chitra.c \
   /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
   /usr/include/aarch64-linux-gnu/bits/floatn.h \
   /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
   /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
   /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
   /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -574,18 +79,26 @@ CMakeFiles/buld.dir/src/Chitra.c.o: /home/hellbats/Code/Chitra/src/Chitra.c \
   /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/png.h \
+  /usr/include/pngconf.h \
+  /usr/include/pnglibconf.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
+  /usr/include/setjmp.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/time.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/syslimits.h
 
-CMakeFiles/buld.dir/src/UpperLayer.c.o: /home/hellbats/Code/Chitra/src/UpperLayer.c \
+CMakeFiles/buld.dir/src/2D/Lines.c.o: /home/hellbats/Code/Chitra/src/2D/Lines.c \
   /home/hellbats/Code/Chitra/src/include/Chitra.h \
   /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
   /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
@@ -594,25 +107,32 @@ CMakeFiles/buld.dir/src/UpperLayer.c.o: /home/hellbats/Code/Chitra/src/UpperLaye
   /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
   /home/hellbats/Code/Chitra/src/include/3D/Math.h \
   /home/hellbats/Code/Chitra/src/include/Chitra.h \
-  /home/hellbats/Code/Chitra/src/include/UpperLayer.h \
+  /home/hellbats/Code/Chitra/src/include/PNGHandler.h \
+  /home/hellbats/Code/Chitra/src/include/PPMReader.h \
   /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
   /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/aarch64-linux-gnu/bits/endian.h \
   /usr/include/aarch64-linux-gnu/bits/endianness.h \
   /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
   /usr/include/aarch64-linux-gnu/bits/floatn.h \
   /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
   /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
   /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
   /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
   /usr/include/aarch64-linux-gnu/bits/setjmp.h \
   /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
   /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
   /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
   /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
@@ -631,31 +151,732 @@ CMakeFiles/buld.dir/src/UpperLayer.c.o: /home/hellbats/Code/Chitra/src/UpperLaye
   /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
   /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
   /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
   /usr/include/aarch64-linux-gnu/bits/wchar.h \
   /usr/include/aarch64-linux-gnu/bits/wordsize.h \
   /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
   /usr/include/aarch64-linux-gnu/gnu/stubs.h \
   /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/png.h \
+  /usr/include/pngconf.h \
+  /usr/include/pnglibconf.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
+  /usr/include/setjmp.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
+  /usr/include/stdlib.h \
   /usr/include/time.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/syslimits.h
+
+CMakeFiles/buld.dir/src/2D/Rectangles.c.o: /home/hellbats/Code/Chitra/src/2D/Rectangles.c \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
+  /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
+  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/PNGHandler.h \
+  /home/hellbats/Code/Chitra/src/include/PPMReader.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/png.h \
+  /usr/include/pngconf.h \
+  /usr/include/pnglibconf.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/setjmp.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/syslimits.h
+
+CMakeFiles/buld.dir/src/2D/Traingles.c.o: /home/hellbats/Code/Chitra/src/2D/Traingles.c \
+  /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
+  /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
+  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/PNGHandler.h \
+  /home/hellbats/Code/Chitra/src/include/PPMReader.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
+  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/png.h \
+  /usr/include/pngconf.h \
+  /usr/include/pnglibconf.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/setjmp.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/syslimits.h
+
+CMakeFiles/buld.dir/src/3D/Cuboid.c.o: /home/hellbats/Code/Chitra/src/3D/Cuboid.c \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
+  /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
+  /home/hellbats/Code/Chitra/src/include/3D/Cuboid.h \
+  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/PNGHandler.h \
+  /home/hellbats/Code/Chitra/src/include/PPMReader.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/png.h \
+  /usr/include/pngconf.h \
+  /usr/include/pnglibconf.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/setjmp.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/syslimits.h
+
+CMakeFiles/buld.dir/src/3D/Math.c.o: /home/hellbats/Code/Chitra/src/3D/Math.c \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
+  /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
+  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/PNGHandler.h \
+  /home/hellbats/Code/Chitra/src/include/PPMReader.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/png.h \
+  /usr/include/pngconf.h \
+  /usr/include/pnglibconf.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/setjmp.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/syslimits.h
+
+CMakeFiles/buld.dir/src/3D/Triangle.c.o: /home/hellbats/Code/Chitra/src/3D/Triangle.c \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
+  /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
+  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/PNGHandler.h \
+  /home/hellbats/Code/Chitra/src/include/PPMReader.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/png.h \
+  /usr/include/pngconf.h \
+  /usr/include/pnglibconf.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/setjmp.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/syslimits.h
+
+CMakeFiles/buld.dir/src/Chitra.c.o: /home/hellbats/Code/Chitra/src/Chitra.c \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
+  /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
+  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/PNGHandler.h \
+  /home/hellbats/Code/Chitra/src/include/PPMReader.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/png.h \
+  /usr/include/pngconf.h \
+  /usr/include/pnglibconf.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/setjmp.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/syslimits.h
+
+CMakeFiles/buld.dir/src/UpperLayer.c.o: /home/hellbats/Code/Chitra/src/UpperLayer.c \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
+  /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
+  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/PNGHandler.h \
+  /home/hellbats/Code/Chitra/src/include/PPMReader.h \
+  /home/hellbats/Code/Chitra/src/include/UpperLayer.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/png.h \
+  /usr/include/pngconf.h \
+  /usr/include/pnglibconf.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/setjmp.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/syslimits.h
 
 CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o: /home/hellbats/Code/Chitra/src/WindowAPI/WindowAPI.c \
   /home/hellbats/Code/Chitra/src/include/Chitra.h \
@@ -666,6 +887,8 @@ CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o: /home/hellbats/Code/Chitra/src/
   /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
   /home/hellbats/Code/Chitra/src/include/3D/Math.h \
   /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/PNGHandler.h \
+  /home/hellbats/Code/Chitra/src/include/PPMReader.h \
   /home/hellbats/Code/Chitra/src/include/UpperLayer.h \
   /home/hellbats/Code/Chitra/src/include/WindowAPI/Window.h \
   /usr/include/SDL2/SDL.h \
@@ -736,10 +959,13 @@ CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o: /home/hellbats/Code/Chitra/src/
   /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
   /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
   /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
   /usr/include/aarch64-linux-gnu/bits/long-double.h \
   /usr/include/aarch64-linux-gnu/bits/math-vector.h \
   /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
   /usr/include/aarch64-linux-gnu/bits/procfs-extra.h \
   /usr/include/aarch64-linux-gnu/bits/procfs-id.h \
   /usr/include/aarch64-linux-gnu/bits/procfs-prregset.h \
@@ -830,12 +1056,18 @@ CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o: /home/hellbats/Code/Chitra/src/
   /usr/include/features-time64.h \
   /usr/include/features.h \
   /usr/include/inttypes.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/stddef.h \
   /usr/include/linux/types.h \
   /usr/include/math.h \
+  /usr/include/png.h \
+  /usr/include/pngconf.h \
+  /usr/include/pnglibconf.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
+  /usr/include/setjmp.h \
   /usr/include/signal.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
@@ -849,10 +1081,223 @@ CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o: /home/hellbats/Code/Chitra/src/
   /usr/lib/gcc/aarch64-linux-gnu/13/include/arm_fp16.h \
   /usr/lib/gcc/aarch64-linux-gnu/13/include/arm_neon.h \
   /usr/lib/gcc/aarch64-linux-gnu/13/include/float.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/syslimits.h
 
+CMakeFiles/buld.dir/src/utils/PNGHandler.c.o: /home/hellbats/Code/Chitra/src/utils/PNGHandler.c \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
+  /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
+  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/PNGHandler.h \
+  /home/hellbats/Code/Chitra/src/include/PPMReader.h \
+  /home/hellbats/Code/Chitra/src/utils/stb_image.h \
+  /home/hellbats/Code/Chitra/src/utils/stb_image_write.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/bits/math-vector.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/alloca.h \
+  /usr/include/assert.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/math.h \
+  /usr/include/png.h \
+  /usr/include/pngconf.h \
+  /usr/include/pnglibconf.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/setjmp.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/time.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/syslimits.h
+
+CMakeFiles/buld.dir/src/utils/PPMReader.c.o: /home/hellbats/Code/Chitra/src/utils/PPMReader.c \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Circles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Lines.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Rectangles.h \
+  /home/hellbats/Code/Chitra/src/include/2D/Triangles.h \
+  /home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h \
+  /home/hellbats/Code/Chitra/src/include/3D/Math.h \
+  /home/hellbats/Code/Chitra/src/include/Chitra.h \
+  /home/hellbats/Code/Chitra/src/include/PNGHandler.h \
+  /home/hellbats/Code/Chitra/src/include/PPMReader.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-least.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/png.h \
+  /usr/include/pngconf.h \
+  /usr/include/pnglibconf.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/setjmp.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/13/include/syslimits.h
+
+
+/usr/include/assert.h:
+
+/home/hellbats/Code/Chitra/src/utils/stb_image.h:
 
 /usr/lib/gcc/aarch64-linux-gnu/13/include/arm_neon.h:
 
@@ -893,6 +1338,8 @@ CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o: /home/hellbats/Code/Chitra/src/
 /usr/include/aarch64-linux-gnu/bits/sigstack.h:
 
 /usr/include/aarch64-linux-gnu/bits/signum-generic.h:
+
+/home/hellbats/Code/Chitra/src/utils/PNGHandler.c:
 
 /usr/include/aarch64-linux-gnu/bits/signal_ext.h:
 
@@ -950,11 +1397,35 @@ CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o: /home/hellbats/Code/Chitra/src/
 
 /usr/include/SDL2/SDL_rect.h:
 
-/usr/include/pthread.h:
+/usr/include/SDL2/SDL_power.h:
 
-/usr/include/aarch64-linux-gnu/bits/typesizes.h:
+/usr/include/SDL2/SDL_pixels.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/time_t.h:
+/usr/include/aarch64-linux-gnu/bits/procfs-id.h:
+
+/usr/include/SDL2/SDL_mutex.h:
+
+/usr/include/SDL2/SDL_misc.h:
+
+/usr/include/SDL2/SDL_metal.h:
+
+/usr/include/SDL2/SDL_messagebox.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/SDL2/SDL_locale.h:
+
+/usr/include/SDL2/SDL_loadso.h:
+
+/usr/include/SDL2/SDL_keycode.h:
+
+/usr/include/SDL2/SDL_timer.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
+
+/home/hellbats/Code/Chitra/src/include/2D/Triangles.h:
+
+/usr/include/SDL2/SDL_clipboard.h:
 
 /usr/include/aarch64-linux-gnu/bits/mathcalls.h:
 
@@ -974,121 +1445,27 @@ CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o: /home/hellbats/Code/Chitra/src/
 
 /usr/include/SDL2/SDL_hints.h:
 
-/usr/include/aarch64-linux-gnu/bits/wchar.h:
-
 /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/__FILE.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/struct_tm.h:
+/usr/include/SDL2/SDL_platform.h:
 
-/usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h:
+/usr/include/aarch64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/sig_atomic_t.h:
 
 /usr/include/SDL2/SDL_keyboard.h:
 
-/usr/include/aarch64-linux-gnu/bits/floatn-common.h:
+/usr/include/aarch64-linux-gnu/bits/types/sigval_t.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/__locale_t.h:
+/usr/include/aarch64-linux-gnu/bits/thread-shared-types.h:
 
-/usr/include/aarch64-linux-gnu/bits/long-double.h:
+/usr/include/SDL2/SDL_error.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h:
+/usr/include/aarch64-linux-gnu/bits/types/FILE.h:
 
-/usr/include/stdint.h:
-
-/usr/include/ctype.h:
-
-/usr/include/aarch64-linux-gnu/bits/endianness.h:
-
-/usr/include/SDL2/SDL_quit.h:
-
-/usr/include/SDL2/SDL_haptic.h:
-
-/home/hellbats/Code/Chitra/src/3D/Cuboid.c:
-
-/home/hellbats/Code/Chitra/src/include/3D/Math.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/SDL2/begin_code.h:
-
-/usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/aarch64-linux-gnu/bits/sched.h:
-
-/usr/include/SDL2/SDL_timer.h:
-
-/home/hellbats/Code/Chitra/src/include/2D/Triangles.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/SDL2/SDL_clipboard.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/clockid_t.h:
-
-/home/hellbats/Code/Chitra/src/include/2D/Rectangles.h:
-
-/usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/asm-generic/int-ll64.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/aarch64-linux-gnu/bits/wordsize.h:
-
-/home/hellbats/Code/Chitra/src/include/2D/Lines.h:
-
-/usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h:
-
-/home/hellbats/Code/Chitra/src/include/Chitra.h:
-
-/usr/include/aarch64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/aarch64-linux-gnu/gnu/stubs.h:
-
-/usr/include/SDL2/SDL_stdinc.h:
-
-/home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h:
-
-/usr/include/aarch64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/aarch64-linux-gnu/bits/sigstksz.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/SDL2/SDL_config.h:
-
-/usr/include/aarch64-linux-gnu/bits/floatn.h:
-
-/usr/include/aarch64-linux-gnu/bits/signum-arch.h:
-
-/usr/include/aarch64-linux-gnu/sys/select.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_sigstack.h:
-
-/usr/include/aarch64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/aarch64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/aarch64-linux-gnu/bits/stdint-least.h:
-
-/home/hellbats/Code/Chitra/src/2D/Traingles.c:
-
-/usr/include/SDL2/SDL_metal.h:
-
-/usr/include/aarch64-linux-gnu/sys/cdefs.h:
-
-/usr/include/aarch64-linux-gnu/bits/uintn-identity.h:
+/usr/include/SDL2/SDL_gamecontroller.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -1098,25 +1475,171 @@ CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o: /home/hellbats/Code/Chitra/src/
 
 /usr/include/aarch64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/aarch64-linux-gnu/bits/procfs-id.h:
+/usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
 
-/usr/include/SDL2/SDL_mutex.h:
+/usr/include/SDL2/SDL_cpuinfo.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/sigval_t.h:
+/usr/include/aarch64-linux-gnu/bits/types/clock_t.h:
 
-/usr/include/aarch64-linux-gnu/bits/thread-shared-types.h:
+/home/hellbats/Code/Chitra/src/2D/Traingles.c:
 
-/usr/include/SDL2/SDL_error.h:
+/usr/include/aarch64-linux-gnu/bits/stdint-least.h:
 
-/usr/include/aarch64-linux-gnu/bits/libc-header-start.h:
+/usr/include/aarch64-linux-gnu/bits/signum-arch.h:
+
+/usr/include/aarch64-linux-gnu/sys/select.h:
+
+/usr/include/SDL2/begin_code.h:
+
+/usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h:
+
+/home/hellbats/Code/Chitra/src/3D/Cuboid.c:
+
+/home/hellbats/Code/Chitra/src/include/3D/Math.h:
+
+/usr/include/SDL2/SDL_quit.h:
+
+/usr/include/SDL2/SDL_haptic.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/clockid_t.h:
+
+/home/hellbats/Code/Chitra/src/include/2D/Rectangles.h:
+
+/usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_sigstack.h:
+
+/usr/include/aarch64-linux-gnu/bits/stdint-uintn.h:
+
+/home/hellbats/Code/Chitra/src/include/PPMReader.h:
+
+/usr/include/aarch64-linux-gnu/bits/byteswap.h:
+
+/usr/include/SDL2/SDL_main.h:
+
+/home/hellbats/Code/Chitra/src/include/2D/Circles.h:
+
+/usr/include/aarch64-linux-gnu/bits/long-double.h:
 
 /usr/include/SDL2/SDL_mouse.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/FILE.h:
+/usr/include/aarch64-linux-gnu/bits/libc-header-start.h:
 
-/usr/include/SDL2/SDL_gamecontroller.h:
+/usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/stdint.h:
+
+/home/hellbats/Code/Chitra/src/include/Chitra.h:
+
+/usr/include/aarch64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/aarch64-linux-gnu/gnu/stubs.h:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/asm-generic/types.h:
+
+/home/hellbats/Code/Chitra/src/include/2D/Lines.h:
+
+/usr/include/aarch64-linux-gnu/bits/wordsize.h:
+
+/usr/include/pthread.h:
+
+/usr/include/aarch64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__locale_t.h:
+
+/home/hellbats/Code/Chitra/src/include/PNGHandler.h:
+
+/usr/include/SDL2/SDL_stdinc.h:
+
+/home/hellbats/Code/Chitra/src/include/3D/3DTriangle.h:
+
+/usr/include/aarch64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/SDL2/SDL_log.h:
+
+/usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/ctype.h:
+
+/usr/include/aarch64-linux-gnu/bits/endianness.h:
+
+/usr/include/aarch64-linux-gnu/bits/local_lim.h:
+
+/usr/include/aarch64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/SDL2/SDL_config.h:
+
+/usr/include/aarch64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/aarch64-linux-gnu/bits/floatn.h:
+
+/usr/include/aarch64-linux-gnu/bits/sched.h:
+
+/usr/include/aarch64-linux-gnu/bits/timesize.h:
+
+/usr/include/aarch64-linux-gnu/bits/select.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/typesizes.h:
+
+/usr/include/aarch64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/aarch64-linux-gnu/sys/cdefs.h:
+
+/usr/include/aarch64-linux-gnu/bits/wchar.h:
+
+/usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h:
+
+/usr/include/aarch64-linux-gnu/sys/types.h:
+
+/usr/include/aarch64-linux-gnu/bits/time64.h:
+
+/usr/include/alloca.h:
+
+/home/hellbats/Code/Chitra/src/utils/PPMReader.c:
+
+/usr/include/aarch64-linux-gnu/bits/procfs-extra.h:
+
+/usr/include/endian.h:
+
+/usr/include/aarch64-linux-gnu/bits/sigstksz.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/aarch64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/SDL2/SDL_gesture.h:
 
 /usr/include/features.h:
+
+/usr/include/limits.h:
+
+/usr/include/SDL2/SDL_events.h:
+
+/usr/include/pngconf.h:
+
+/home/hellbats/Code/Chitra/src/utils/stb_image_write.h:
+
+/usr/include/SDL2/SDL_endian.h:
+
+/usr/include/pnglibconf.h:
+
+/usr/include/setjmp.h:
 
 /usr/include/sched.h:
 
@@ -1130,11 +1653,19 @@ CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o: /home/hellbats/Code/Chitra/src/
 
 /usr/include/SDL2/SDL.h:
 
+/usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h:
+
+/usr/lib/gcc/aarch64-linux-gnu/13/include/limits.h:
+
 /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
 /usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h:
+
+/usr/include/aarch64-linux-gnu/bits/stdio_lim.h:
+
+/usr/lib/gcc/aarch64-linux-gnu/13/include/syslimits.h:
 
 /home/hellbats/Code/Chitra/src/2D/Circles.c:
 
@@ -1162,30 +1693,6 @@ CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o: /home/hellbats/Code/Chitra/src/
 
 /home/hellbats/Code/Chitra/src/Chitra.c:
 
-/usr/include/aarch64-linux-gnu/bits/byteswap.h:
-
-/usr/include/aarch64-linux-gnu/bits/timesize.h:
-
-/usr/include/aarch64-linux-gnu/bits/select.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/SDL2/SDL_cpuinfo.h:
-
-/usr/include/SDL2/SDL_gesture.h:
-
-/usr/include/aarch64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/aarch64-linux-gnu/sys/types.h:
-
-/usr/include/aarch64-linux-gnu/bits/time64.h:
-
-/usr/include/alloca.h:
-
-/usr/include/aarch64-linux-gnu/bits/procfs-extra.h:
-
-/usr/include/endian.h:
-
 /home/hellbats/Code/Chitra/src/UpperLayer.c:
 
 /usr/include/stdlib.h:
@@ -1202,8 +1709,6 @@ CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o: /home/hellbats/Code/Chitra/src/
 
 /home/hellbats/Code/Chitra/src/WindowAPI/WindowAPI.c:
 
-/usr/include/SDL2/SDL_power.h:
-
 /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h:
 
 /home/hellbats/Code/Chitra/src/include/WindowAPI/Window.h:
@@ -1213,6 +1718,8 @@ CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o: /home/hellbats/Code/Chitra/src/
 /usr/include/aarch64-linux-gnu/bits/setjmp.h:
 
 /usr/include/aarch64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/png.h:
 
 /usr/include/SDL2/SDL_atomic.h:
 
@@ -1224,40 +1731,10 @@ CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o: /home/hellbats/Code/Chitra/src/
 
 /usr/include/SDL2/SDL_blendmode.h:
 
-/usr/include/SDL2/SDL_keycode.h:
-
-/usr/include/SDL2/SDL_endian.h:
-
-/home/hellbats/Code/Chitra/src/include/2D/Circles.h:
-
-/usr/include/SDL2/SDL_main.h:
-
-/usr/include/SDL2/SDL_events.h:
-
 /usr/include/SDL2/SDL_filesystem.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/SDL2/SDL_platform.h:
 
 /usr/include/SDL2/SDL_guid.h:
 
 /usr/include/SDL2/SDL_hidapi.h:
 
 /usr/include/SDL2/SDL_joystick.h:
-
-/usr/include/SDL2/SDL_loadso.h:
-
-/usr/include/linux/posix_types.h:
-
-/usr/include/SDL2/SDL_locale.h:
-
-/usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h:
-
-/usr/include/SDL2/SDL_log.h:
-
-/usr/include/SDL2/SDL_messagebox.h:
-
-/usr/include/SDL2/SDL_misc.h:
-
-/usr/include/SDL2/SDL_pixels.h:

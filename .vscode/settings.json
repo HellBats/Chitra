@@ -11,6 +11,9 @@
         "cuboid.h": "c",
         "triangles.h": "c",
         "3dtriangle.h": "c",
-        "rectangles.h": "c"
+        "rectangles.h": "c",
+        "imago2.h": "c",
+        "stb_image.h": "c",
+        "pngreader.h": "c"
     }
 }

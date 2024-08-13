@@ -84,7 +84,7 @@ void ChitraAntiAiliasingDrawLine(Chitra chitra,Line line,uint32_t color)
                     if(NormalizedRectangle(chitra,x2,y2,x3,y3,&x2,&y2,&x3,&y3))
                     {
                         size_t popularity = 0;
-                        uint32_t color_trans = 0x00000000;
+                        uint32_t transparency = 0x00000000;
                         uint32_t back_color = chitra.pixels[y2*chitra.stride+x2];
                         for(int k=x2;k<=x3;k++)
                         {
@@ -96,10 +96,10 @@ void ChitraAntiAiliasingDrawLine(Chitra chitra,Line line,uint32_t color)
                         }
                         if(popularity)
                         {
-                            uint32_t transparency = 102 + 17*popularity;
-                            color_trans = (transparency << 24);
+                            transparency = (102 + 17*popularity)<<24;
                         }
-                        uint32_t new_color = MixRGBA(back_color,((color << 8) >> 8) | color_trans);
+                        uint32_t new_color = MixRGBA(back_color,(color & 0x00FFFFFF) 
+                        | transparency);
                         chitra.pixels[j*chitra.stride+i] = new_color;
                     }            
                 }

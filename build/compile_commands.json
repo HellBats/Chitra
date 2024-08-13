@@ -58,5 +58,17 @@
   "command": "/usr/bin/cc  -I/home/hellbats/Code/Chitra/src -g -o CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o -c /home/hellbats/Code/Chitra/src/WindowAPI/WindowAPI.c",
   "file": "/home/hellbats/Code/Chitra/src/WindowAPI/WindowAPI.c",
   "output": "CMakeFiles/buld.dir/src/WindowAPI/WindowAPI.c.o"
+},
+{
+  "directory": "/home/hellbats/Code/Chitra/build",
+  "command": "/usr/bin/cc  -I/home/hellbats/Code/Chitra/src -g -o CMakeFiles/buld.dir/src/utils/PNGHandler.c.o -c /home/hellbats/Code/Chitra/src/utils/PNGHandler.c",
+  "file": "/home/hellbats/Code/Chitra/src/utils/PNGHandler.c",
+  "output": "CMakeFiles/buld.dir/src/utils/PNGHandler.c.o"
+},
+{
+  "directory": "/home/hellbats/Code/Chitra/build",
+  "command": "/usr/bin/cc  -I/home/hellbats/Code/Chitra/src -g -o CMakeFiles/buld.dir/src/utils/PPMReader.c.o -c /home/hellbats/Code/Chitra/src/utils/PPMReader.c",
+  "file": "/home/hellbats/Code/Chitra/src/utils/PPMReader.c",
+  "output": "CMakeFiles/buld.dir/src/utils/PPMReader.c.o"
 }
 ]

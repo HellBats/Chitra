@@ -7,9 +7,9 @@
 
 #define SCREENDEPTH 500.0
 #define CAMERAX 0.0
-#define CAMERAY 0.0
-#define CAMERAZ -20.0
-#define CAMERAROTX 0
+#define CAMERAY 10.0
+#define CAMERAZ -40.0
+#define CAMERAROTX -10
 #define CAMERAROTY 0
 #define CAMERAROTZ 0
 #define PRECISION 10
